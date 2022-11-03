@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `drewDavisCounseling`,
+    title: `DDC`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
