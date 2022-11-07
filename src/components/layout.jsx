@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/main.scss"
 import { Container, Row, Navbar, Nav, Col } from "react-bootstrap";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Layout = ({ children }) => {
     return (
@@ -9,7 +10,9 @@ const Layout = ({ children }) => {
             <Container>
                 <header>
                     <Navbar className="navbar-custom" expand='sm'>
-                        <Navbar.Brand href="#">Drew Davis Counseling</Navbar.Brand>
+                        <Navbar.Brand href="#">
+                            <StaticImage width={100} src="../images/DDClogo.png" alt="DDC Logo" />
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="ddcNav" />
                         <Navbar.Collapse id="ddcNav" className="justify-content-end">
                             <Nav>
