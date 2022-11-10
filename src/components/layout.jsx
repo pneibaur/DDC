@@ -18,11 +18,11 @@ const Layout = ({ children }) => {
                         <Navbar.Toggle aria-controls="ddcNav" />
                         <Navbar.Collapse id="ddcNav" className="justify-content-end">
                             <Nav>
-                                <Nav.Link href="#">HOME</Nav.Link>
-                                <Nav.Link href="#">ABOUT</Nav.Link>
-                                <Nav.Link><AnchorLink className="anchorLink" to="/#services" >SERVICES</AnchorLink></Nav.Link>
+                                <Nav.Link href="/">HOME</Nav.Link>
+                                <Nav.Link href="/about">ABOUT</Nav.Link>
                                 <Nav.Link><AnchorLink className="anchorLink" to="/#specialties"> SPECIALTIES</AnchorLink></Nav.Link>
-                                <Nav.Link href="#">CONTACT</Nav.Link>
+                                <Nav.Link><AnchorLink className="anchorLink" to="/#services" >SERVICES</AnchorLink></Nav.Link>
+                                <Nav.Link><AnchorLink className="anchorLink" to="/#contact"> CONTACT</AnchorLink></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
             </main>
             <Container>
                 <hr />
-                <footer className="page-footer">
+                <footer id="contact" className="page-footer">
                     <Row className="justify-content-center">
                         <Col xs={12} md={6}>
                             <h4>CONTACT FORM</h4>
