@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/main.scss"
 import { Container, Row, Navbar, Nav, Col } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
+import { AnchorLink } from "gatsby-plugin-anchor-links"
+import ContactMe from "./contactMe";
 
 const Layout = ({ children }) => {
     return (
@@ -18,8 +20,8 @@ const Layout = ({ children }) => {
                             <Nav>
                                 <Nav.Link href="#">HOME</Nav.Link>
                                 <Nav.Link href="#">ABOUT</Nav.Link>
-                                <Nav.Link href="#">SERVICES</Nav.Link>
-                                <Nav.Link href="#">SPECIALTIES</Nav.Link>
+                                <Nav.Link><AnchorLink className="anchorLink" to="/#services" >SERVICES</AnchorLink></Nav.Link>
+                                <Nav.Link><AnchorLink className="anchorLink" to="/#specialties"> SPECIALTIES</AnchorLink></Nav.Link>
                                 <Nav.Link href="#">CONTACT</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
@@ -29,7 +31,7 @@ const Layout = ({ children }) => {
             <main>
                 {children}
             </main>
-            <Container fluid>
+            <Container>
                 <hr />
                 <footer className="page-footer">
                     <Row className="justify-content-center">
@@ -37,7 +39,7 @@ const Layout = ({ children }) => {
                             <h4>CONTACT FORM</h4>
                         </Col>
                         <Col xs={12} md={6}>
-                            <h4>DREW CONTACT INFO</h4>
+                            <ContactMe></ContactMe>
                         </Col>
                     </Row>
                 </footer>

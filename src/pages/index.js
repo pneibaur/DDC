@@ -22,7 +22,7 @@ const IndexPage = () => {
           </Row>
         </Container>
       </div>
-      <div className="welcomeSection">
+      <div id="specialties" className="welcomeSection">
         <Container>
           <hr />
           <Row >
@@ -41,7 +41,7 @@ const IndexPage = () => {
           </Row>
         </Container>
       </div>
-      <div className="welcomeSection services">
+      <div id="services" className="welcomeSection services">
         <Container>
           <hr />
           <Row className="justify-content-end">
@@ -60,10 +60,9 @@ const IndexPage = () => {
           </Row>
         </Container>
       </div>
-      <div className="welcomeSection">
+      <div id="testimonials" className="welcomeSection">
         <Container>
-          <Testimonial>
-          </Testimonial>
+          <Testimonial></Testimonial>
         </Container>
       </div>
     </Layout>

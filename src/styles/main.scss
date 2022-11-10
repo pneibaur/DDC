@@ -91,3 +91,19 @@ body {
     align-items: center;
     margin: 0 auto;
 }
+
+.anchorLink {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.contactMe {
+    text-align: end;
+}
+
+.contactMeList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: flex-start;
+}
