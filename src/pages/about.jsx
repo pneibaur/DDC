@@ -14,7 +14,7 @@ const About = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col xs={12} md={6}>
                         <Card className="bio">
                             <Card.Body>
                                 <Card.Title>
@@ -49,7 +49,7 @@ const About = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col xs={12} md={6}>
                         <Card className='bio'>
                             <Card.Body>
                                 <Card.Title>FROM A CLIENT</Card.Title>
@@ -76,8 +76,14 @@ const About = () => {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
-                    <StaticImage style={{ maxWidth: 400 }} src='../images/familyDrew.jpeg' alt='Drew Davis Family' />
+                <hr />
+                <Row className='justify-content-md-center'>
+                    <Col xs={12}>
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/familyDrew.jpeg' alt='Drew Davis Family' />
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/byuDrew.jpeg' alt='Drew Davis BYU' />
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/africaDrew.jpeg' alt='Drew Davis Africa' />
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/profileDrew.jpeg' alt='Drew Davis Profile' />
+                    </Col>
                 </Row>
             </Container>
         </Layout>
