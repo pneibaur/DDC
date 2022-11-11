@@ -4,7 +4,7 @@ import { Carousel, Col, Row } from "react-bootstrap"
 const Testimonial = () => {
     return (
         <Row className="justify-content-md-center">
-            <h1>TESTIMONIALS</h1>
+            <h3>TESTIMONIALS</h3>
             <br /><hr /><br />
             <Col xs="12" md="6">
                 <Carousel nextIcon="" prevIcon="" className="testimonyCarousel">

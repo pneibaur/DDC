@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 import { Row, Col, Container } from "react-bootstrap"
 import Testimonial from "../components/testimonial"
 import { StaticImage } from "gatsby-plugin-image"
-import CircleImg from "../components/circleImg"
+import RoundDisplay from "../components/circleImg"
 
 const IndexPage = () => {
 
@@ -22,7 +22,7 @@ const IndexPage = () => {
           </Row>
         </Container>
       </div>
-      <div id="specialties" className="welcomeSection">
+      <div id="specialties" className="welcomeSection specialties">
         <Container>
           <hr />
           <Row >
@@ -49,18 +49,18 @@ const IndexPage = () => {
           </Row>
           <Row>
             <Col xs={12} md={4}>
-              <CircleImg banner={"EMDR"}></CircleImg>
+              <RoundDisplay banner={"EMDR"}></RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
-              <CircleImg banner={"CBT"}></CircleImg>
+              <RoundDisplay banner={"CBT"}></RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
-              <CircleImg banner={"NEURO FEEDBACK"}></CircleImg>
+              <RoundDisplay banner={"NEURO FEEDBACK"}></RoundDisplay>
             </Col>
           </Row>
         </Container>
       </div>
-      <div id="testimonials" className="welcomeSection">
+      <div id="testimonials" className="welcomeSection testimonials">
         <Container>
           <Testimonial></Testimonial>
         </Container>
