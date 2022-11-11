@@ -49,13 +49,22 @@ const IndexPage = () => {
           </Row>
           <Row>
             <Col xs={12} md={4}>
-              <RoundDisplay banner={"EMDR"}></RoundDisplay>
+            <RoundDisplay 
+              img={<StaticImage src="../images/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+              banner={"EMDR"}>
+              </RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
-              <RoundDisplay banner={"CBT"}></RoundDisplay>
+            <RoundDisplay 
+              img={<StaticImage src="../images/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+              banner={"CBT"}>
+              </RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
-              <RoundDisplay banner={"NEURO FEEDBACK"}></RoundDisplay>
+            <RoundDisplay 
+              img={<StaticImage src="../images/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+              banner={"NEURO FEEDBACK"}>
+              </RoundDisplay>
             </Col>
           </Row>
         </Container>
