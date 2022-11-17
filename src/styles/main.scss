@@ -5,6 +5,9 @@
 // font-family: 'Montagu Slab', serif; 200, 400, 700
 // font-family: 'Nokora', sans-serif; 300, 400, 700
 
+.layout {
+    background-color: rgba(75, 120, 169, .1);
+}
 
 .material-symbols-rounded {
     font-variation-settings:
@@ -38,6 +41,8 @@ body {
 
 .services {
     background-color: rgba(75, 120, 169, 0.1);
+    margin-top: 3em;
+
 }
 
 .welcome {
@@ -87,7 +92,7 @@ body {
 
 .roundDisplay {
     grid-area: 1/1;
-    filter: blur(1px);
+    filter: blur(2px);
     opacity: .9;
     margin: 0;
     // border-radius: 50%;
@@ -100,6 +105,7 @@ body {
     justify-content: center;
     position: relative;
     color: white;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.9);
 }
 
 .testimonyCarousel {
@@ -135,4 +141,13 @@ body {
 .bio {
     background-color: rgba(75, 120, 169, 0.1);
     border: rgba(0, 0, 0, 0.1);
+}
+
+.bannerMsg {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bannerTitle {
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.9);
 }

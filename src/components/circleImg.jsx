@@ -6,7 +6,7 @@ const RoundDisplay = ({ banner, img }) => {
         <div className='imgDiv'>
             {img}
             <div className="imgBanner">
-                <h4>{banner}</h4>
+                <h4 className='bannerMsg'>{banner}</h4>
             </div>
         </div>
     )

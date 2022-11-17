@@ -79,10 +79,10 @@ const About = () => {
                 <hr />
                 <Row className='justify-content-md-center'>
                     <Col xs={12}>
-                    <StaticImage style={{ maxWidth: 300 }} src='../images/familyDrew.jpeg' alt='Drew Davis Family' />
-                    <StaticImage style={{ maxWidth: 300 }} src='../images/byuDrew.jpeg' alt='Drew Davis BYU' />
-                    <StaticImage style={{ maxWidth: 300 }} src='../images/africaDrew.jpeg' alt='Drew Davis Africa' />
-                    <StaticImage style={{ maxWidth: 300 }} src='../images/profileDrew.jpeg' alt='Drew Davis Profile' />
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/familyDrew.jpeg' alt='Drew Davis Family' />
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/byuDrew.jpeg' alt='Drew Davis BYU' />
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/africaDrew.jpeg' alt='Drew Davis Africa' />
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/profileDrew.jpeg' alt='Drew Davis Profile' />
                     </Col>
                 </Row>
             </Container>

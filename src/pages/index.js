@@ -11,12 +11,12 @@ const IndexPage = () => {
   return (
     <Layout>
       <div className="welcome">
-        <StaticImage className="welcomeImg" src="../images/brandonGreenWasatchForest.jpeg" alt="Wasatch National Forest by Brandon Green" />
+        <StaticImage className="welcomeImg" src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt="Wasatch National Forest by Brandon Green" />
         <Container className="welcomeBanner">
           <Row>
             <Col xs={12}>
               <div>
-                <h1>Drew Davis Counseling</h1>
+                <h1 className="bannerTitle">Drew Davis Counseling</h1>
               </div>
             </Col>
           </Row>
@@ -30,13 +30,22 @@ const IndexPage = () => {
           </Row>
           <Row>
             <Col xs={12} md={4}>
-              <h4>DEPRESSION</h4>
+              <RoundDisplay
+                img={<StaticImage src="../images/stockImages/depressionByDevAsangbam.jpg" alt='texter' className='roundDisplay' />}
+                banner={"DEPRESSION"}>
+              </RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
-              <h4>ADDICTION</h4>
+              <RoundDisplay
+                img={<StaticImage src="../images/stockImages/groupRecoveryByAdriannaGeo.jpg" alt='texter' className='roundDisplay' />}
+                banner={"ADDICTION"}>
+              </RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
-              <h4>AND MORE</h4>
+              <RoundDisplay
+                img={<StaticImage src="../images/stockImages/familyHandsByLuanaAzevedo.jpg" alt='texter' className='roundDisplay' />}
+                banner={"FAMILIES"}>
+              </RoundDisplay>
             </Col>
           </Row>
         </Container>
@@ -49,21 +58,21 @@ const IndexPage = () => {
           </Row>
           <Row>
             <Col xs={12} md={4}>
-            <RoundDisplay 
-              img={<StaticImage src="../images/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
-              banner={"EMDR"}>
+              <RoundDisplay
+                img={<StaticImage src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+                banner={"EMDR"}>
               </RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
-            <RoundDisplay 
-              img={<StaticImage src="../images/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
-              banner={"CBT"}>
+              <RoundDisplay
+                img={<StaticImage src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+                banner={"CBT"}>
               </RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
-            <RoundDisplay 
-              img={<StaticImage src="../images/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
-              banner={"NEURO FEEDBACK"}>
+              <RoundDisplay
+                img={<StaticImage src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+                banner={"NEURO FEEDBACK"}>
               </RoundDisplay>
             </Col>
           </Row>
