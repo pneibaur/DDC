@@ -3,7 +3,8 @@ import * as React from 'react'
 const ContactMe = () =>{
     return (
         <div className="contactMe">
-            <h4>CONTACT</h4>
+            <h4>CONTACT ME</h4>
+            <br />
             <ul className='contactMeList'>
                 <li><span className="material-symbols-rounded icons">mail</span> <i>some_email@gmail.com</i></li>
                 <li><span className="material-symbols-rounded icons">call</span> 801-555-5555</li>

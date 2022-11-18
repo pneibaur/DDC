@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "./contactForm";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/main.scss"
 import { Container, Row, Navbar, Nav, Col } from "react-bootstrap";
@@ -39,7 +40,7 @@ const Layout = ({ children }) => {
                     <footer id="contact" className="page-footer">
                         <Row className="justify-content-center">
                             <Col xs={12} md={6}>
-                                <h4>CONTACT FORM</h4>
+                                <ContactForm></ContactForm>
                             </Col>
                             <Col xs={12} md={6}>
                                 <ContactMe></ContactMe>

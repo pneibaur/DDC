@@ -59,19 +59,19 @@ const IndexPage = () => {
           <Row>
             <Col xs={12} md={4}>
               <RoundDisplay
-                img={<StaticImage src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+                img={<StaticImage src="../images/stockImages/EMDR.jpg" alt='texter' className='roundDisplay' />}
                 banner={"EMDR"}>
               </RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
               <RoundDisplay
-                img={<StaticImage src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+                img={<StaticImage src="../images/stockImages/CBT.jpg" alt='texter' className='roundDisplay' />}
                 banner={"CBT"}>
               </RoundDisplay>
             </Col>
             <Col xs={12} md={4}>
               <RoundDisplay
-                img={<StaticImage src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt='texter' className='roundDisplay' />}
+                img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='texter' className='roundDisplay' />}
                 banner={"NEURO FEEDBACK"}>
               </RoundDisplay>
             </Col>
