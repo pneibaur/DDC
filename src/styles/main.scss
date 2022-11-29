@@ -79,7 +79,6 @@ body {
     margin-top: 3em;
     padding-bottom: 3em;
     h3 {
-        font-size: 4em;
         font-family: 'Montagu Slab', serif;
     }
 }
@@ -88,16 +87,15 @@ body {
     display: grid;
     background-color: rgba(176, 176, 176, 0.8);
     border-radius: 50%;
-    width: 20em;
+    margin: 1em;
+    max-width: 20em;
 }
 
 .roundDisplay {
     grid-area: 1/1;
     filter: blur(1px);
     opacity: .9;
-    margin: 0;
     border-radius: 50%;
-    width: 20em;
 }
 
 .imgBanner {

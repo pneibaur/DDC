@@ -5,36 +5,40 @@ import RoundDisplay from "./circleImg"
 import { StaticImage } from "gatsby-plugin-image"
 import 'react-multi-carousel/lib/styles.css'
 
-const Specialties = () => {
+const Specialties = ({deviceType}) => {
     const responsive = {
         largeDesktop: {
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
+            breakpoint: { max: 4000, min: 3001 },
+            items: 4,
         },
         desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3
+            breakpoint: { max: 3000, min: 1025 },
+            items: 3,
         },
         tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
+            breakpoint: { max: 1024, min: 465 },
+            items: 2,
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
-            items: 1
+            items: 1,
         },
 
     }
     return (
         <Row>
             <Carousel 
+                deviceType={deviceType}
                 responsive={responsive}
                 swipeable={false}
                 draggable={false}
                 infinite={true}
                 autoPlay={true}
                 autoPlaySpeed={2500}
+                partialVisbile={false}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
+                itemClass="multi-carousel-item"
+                containerClass="specialties-carousel"
             >
                 <div>
                     <RoundDisplay
