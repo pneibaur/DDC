@@ -7,7 +7,7 @@ const Testimonial = () => {
             <h3 className="display-4"><strong> TESTIMONIALS</strong></h3>
             <br /><hr /><br />
             <Col xs="12" md="6">
-                <Carousel nextIcon="" prevIcon="" className="testimonyCarousel">
+                <Carousel className="testimonyCarousel">
                     <Carousel.Item>
                         <div className="testimonial">
                             <h4>First</h4>
