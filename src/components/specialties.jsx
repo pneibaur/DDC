@@ -56,19 +56,19 @@ const Specialties = () => {
                 </div>
                 <div>
                     <RoundDisplay
-                        img={<StaticImage src="../images/stockImages/familyHandsByLuanaAzevedo.jpg" alt='texter' className='roundDisplay' />}
+                        img={<StaticImage src="../images/stockImages/teenagersByAedrian.jpg" alt='texter' className='roundDisplay' />}
                         banner={"TEENAGERS"}>
                     </RoundDisplay>
                 </div>
                 <div>
                     <RoundDisplay
-                        img={<StaticImage src="../images/stockImages/familyHandsByLuanaAzevedo.jpg" alt='texter' className='roundDisplay' />}
+                        img={<StaticImage src="../images/stockImages/confidenceByElizeuDias.jpg" alt='texter' className='roundDisplay' />}
                         banner={"SELF ESTEEM"}>
                     </RoundDisplay>
                 </div>
                 <div>
                     <RoundDisplay
-                        img={<StaticImage src="../images/stockImages/familyHandsByLuanaAzevedo.jpg" alt='texter' className='roundDisplay' />}
+                        img={<StaticImage src="../images/stockImages/depressionByGadielLazcano.jpg" alt='texter' className='roundDisplay' />}
                         banner={"DEPRESSION"}>
                     </RoundDisplay>
                 </div>
