@@ -10,7 +10,7 @@ import ContactMe from "./contactMe";
 const Layout = ({ children }) => {
     return (
         <>
-            <div className="layout">
+            <div className="layout ddc-nav">
                 <Container>
                     <header>
                         <Navbar className="navbar-custom" expand='sm'>

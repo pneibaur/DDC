@@ -10,9 +10,15 @@ const About = () => {
             <Container>
                 <Row className='aboutTitle'>
                     <Col>
-                        <h3>Drew Davis</h3>
+                        <h3 className='display-4'><strong> Drew Davis</strong></h3>
                     </Col>
                 </Row>
+                <Row className='justify-content-md-center'>
+                    <Col xs={12}>
+                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/profileDrew.jpeg' alt='Drew Davis Profile' />
+                    </Col>
+                </Row>
+                <hr />
                 <Row>
                     <Col xs={12} md={6}>
                         <Card className="bio">
@@ -50,6 +56,7 @@ const About = () => {
                         </Card>
                     </Col>
                     <Col xs={12} md={6}>
+                    <br />
                         <Card className='bio'>
                             <Card.Body>
                                 <Card.Title>FROM A CLIENT</Card.Title>
@@ -74,15 +81,6 @@ const About = () => {
                                 </div>
                             </Card.Body>
                         </Card>
-                    </Col>
-                </Row>
-                <hr />
-                <Row className='justify-content-md-center'>
-                    <Col xs={12}>
-                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/familyDrew.jpeg' alt='Drew Davis Family' />
-                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/byuDrew.jpeg' alt='Drew Davis BYU' />
-                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/africaDrew.jpeg' alt='Drew Davis Africa' />
-                    <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/profileDrew.jpeg' alt='Drew Davis Profile' />
                     </Col>
                 </Row>
             </Container>
