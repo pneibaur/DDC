@@ -30,8 +30,8 @@ const Specialties = ({deviceType}) => {
             <Carousel 
                 deviceType={deviceType}
                 responsive={responsive}
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
                 infinite={true}
                 autoPlay={true}
                 autoPlaySpeed={2500}

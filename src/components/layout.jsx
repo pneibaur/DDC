@@ -36,8 +36,8 @@ const Layout = ({ children }) => {
             </main>
             <div className="layout">
                 <Container>
-                    <hr />
                     <footer id="contact" className="page-footer">
+                        <br /><br />
                         <Row className="justify-content-center">
                             <Col xs={12} md={6}>
                                 <ContactForm></ContactForm>

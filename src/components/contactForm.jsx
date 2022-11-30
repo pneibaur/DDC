@@ -5,7 +5,7 @@ const ContactForm = () => {
     return (
         <>
             <h4>SEND ME A MESSAGE</h4>
-            <br />
+            <hr /><br />
             <Form>
                 <Row>
                     <Col>
