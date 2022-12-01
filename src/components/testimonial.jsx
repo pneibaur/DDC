@@ -7,23 +7,18 @@ const Testimonial = () => {
             <h3 className="display-4"><strong> TESTIMONIALS</strong></h3>
             <br /><hr /><br />
             <Col xs="12" md="6">
-                <Carousel className="testimonyCarousel">
+                <Carousel variant="dark" className="testimonyCarousel">
                     <Carousel.Item>
                         <div className="testimonial">
-                            <h4>First</h4>
                             <p><i>
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                Right now there aren't any quotes in this carousel. 
+                                But there soon will be! 
                             </i></p>
-                            <p> - Quote Person</p>
+                            <p> - First Person</p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="testimonial">
-                            <h4>Second</h4>
                             <p><i>
                                 Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit, sed do eiusmod tempor
@@ -31,12 +26,11 @@ const Testimonial = () => {
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat.
                             </i></p>
-                            <p> - Quote Person</p>
+                            <p> - Second Person</p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="testimonial">
-                            <h4>Third</h4>
                             <p><i>
                                 Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit, sed do eiusmod tempor
@@ -44,7 +38,7 @@ const Testimonial = () => {
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat.
                             </i></p>
-                            <p> - Quote Person</p>
+                            <p> - Third Person</p>
                         </div>
                     </Carousel.Item>
                 </Carousel>

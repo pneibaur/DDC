@@ -79,22 +79,22 @@ const IndexPage = () => {
             <h3 className="display-4"><strong> SERVICES</strong></h3>
             <hr/>
           </Row>
-          <Row>
-            <Col xs={12} md={4}>
+          <Row className="justify-content-center">
+            <Col xs={6} md={3}>
               <RoundDisplay
-                img={<StaticImage src="../images/stockImages/EMDR.jpg" alt='texter' className='roundDisplay' />}
+                img={<StaticImage src="../images/stockImages/EMDR.jpg" alt='EMDR' className='roundDisplay' />}
                 banner={"EMDR"}>
               </RoundDisplay>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={6} md={3}>
               <RoundDisplay
-                img={<StaticImage src="../images/stockImages/CBT.jpg" alt='texter' className='roundDisplay' />}
+                img={<StaticImage src="../images/stockImages/CBT.jpg" alt='Cognitive Behavioral Therapy' className='roundDisplay' />}
                 banner={"CBT"}>
               </RoundDisplay>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={6} md={3}>
               <RoundDisplay
-                img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='texter' className='roundDisplay' />}
+                img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='roundDisplay' />}
                 banner={"NEURO FEEDBACK"}>
               </RoundDisplay>
             </Col>
