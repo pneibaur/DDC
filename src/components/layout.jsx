@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
                 <Container>
                     <header>
                         <Navbar className="navbar-custom" expand='sm'>
-                            <Navbar.Brand href="#">
+                            <Navbar.Brand href="/">
                                 <StaticImage width={200} src="../images/ddcMountainLogo.png" alt="DDC Logo" />
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="ddcNav" />
