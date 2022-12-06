@@ -5,21 +5,16 @@ import Seo from "../components/seo"
 import { Row, Col, Container } from "react-bootstrap"
 import Testimonial from "../components/testimonial"
 import { StaticImage } from "gatsby-plugin-image"
-import RoundDisplay from "../components/circleImg"
 import Specialties from "../components/specialties"
+import SqDisplay from "../components/sqDisplay"
 
 // --------------------------------------------------
 // TO DO:
 // --------------------------------------------------
-// 1. The mobile version: the services/specialties are off center. make them centered. 
 
 // 2. make the form functional with an email service. 
 //     - https://formspree.io/
 //     - https://www.gatsbyjs.com/docs/building-a-contact-form/
-
-// 3. the services images need to be hoverable/clickable
-//     - when clicked/hovered, a darker transparent color slides "up", with a descriptive text of the item. 
-//     - OR when hovered or clicked, the card "flips over" and reveals more info. 
 
 // 4. create links to EMDR about, and Neurofeedback about. OR create some pages with quoted texts from each of these services? 
 
@@ -31,6 +26,8 @@ import Specialties from "../components/specialties"
 // --------------------------------------------------
 // COMPLETE
 // --------------------------------------------------
+// - the services images need to be hoverable/clickable - info fades in upon hover. works on mobile
+// - The mobile version: the services/specialties are off center. make them centered. 
 // - make the nav sticky so it's visible all the time. 
 // - logo needs to be more classy
 // - specialties must also include: teenagers, anxiety, trauma, self esteem, conflict resolution. 
@@ -48,6 +45,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
+      {/* WELCOME BANNER AND HERO IMAGE */}
       <div className="welcome">
         <StaticImage className="welcomeImg" src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt="Wasatch National Forest by Brandon Green" />
         <Container className="welcomeBanner">
@@ -55,52 +53,65 @@ const IndexPage = () => {
             <Col xs={12}>
               <div className="bannerTitleDiv">
                 <StaticImage className="bannerTitle" src="../images/ddcMountainLogo.png" alt="Drew Davis Counseling" />
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <h2 className="bannerTitle"><em><u>For growth, healing, & building a better self</u></em></h2>
               </div>
             </Col>
           </Row>
         </Container>
       </div>
+      {/* SPECIALTIES SECTION (ADDICTION, TEENAGERS, SELF-ESTEEM, ETC.) */}
       <div id="specialties" className="welcomeSection specialties">
         <Container>
           <Row >
             <h3 className="display-4"><strong> SPECIALTIES</strong></h3>
-            <hr/>
+            <hr />
           </Row>
           <Specialties deviceType={deviceType}></Specialties>
         </Container>
       </div>
+      {/* SERVICES OFFERED */}
       <div id="services" className="welcomeSection services">
         <Container>
-            <br/><br/>
+          <br /><br />
+          {/* services banner */}
           <Row className="justify-content-end">
             <h3 className="display-4"><strong> SERVICES</strong></h3>
-            <hr/>
+            <hr />
           </Row>
+          {/* display images */}
           <Row className="justify-content-center">
-            <Col xs={6} md={3}>
-              <RoundDisplay
-                img={<StaticImage src="../images/stockImages/EMDR.jpg" alt='EMDR' className='roundDisplay' />}
-                banner={"EMDR"}>
-              </RoundDisplay>
-            </Col>
-            <Col xs={6} md={3}>
-              <RoundDisplay
-                img={<StaticImage src="../images/stockImages/CBT.jpg" alt='Cognitive Behavioral Therapy' className='roundDisplay' />}
-                banner={"CBT"}>
-              </RoundDisplay>
-            </Col>
-            <Col xs={6} md={3}>
-              <RoundDisplay
-                img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='roundDisplay' />}
-                banner={"NEURO FEEDBACK"}>
-              </RoundDisplay>
-            </Col>
+
+            <SqDisplay
+              img={<StaticImage src="../images/stockImages/EMDR.jpg" alt='EMDR' className='squareDisplay' />}
+              banner="EMDR"
+            >
+              <div className="services-info">
+                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </SqDisplay>
+
+            <SqDisplay
+              img={<StaticImage src="../images/stockImages/CBT.jpg" alt='Cognitive Behavioral Therapy' className='squareDisplay' />}
+              banner={"CBT"}>
+              <div className="services-info">
+                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </SqDisplay>
+
+            <SqDisplay
+              img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='squareDisplay' />}
+              banner={"NEURO FEEDBACK"}>
+              <div className="services-info">
+                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </SqDisplay>
+
           </Row>
         </Container>
       </div>
+      {/* TESTIMONIALS */}
       <div id="testimonials" className="welcomeSection testimonials">
         <Container>
           <Testimonial></Testimonial>

@@ -1,0 +1,86 @@
+@import "~bootstrap/scss/bootstrap";
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-40%);
+        z-index: 101;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-40%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.squareDiv {
+    display: grid;
+    background-color: rgba(176, 176, 176, 0.8);
+    margin: 1em;
+    max-width: 20em;
+    border-radius: 5px;
+    &:hover .services-info {
+        animation: fade-in 1000ms 250ms ease-in-out 1 alternate both;
+    } 
+    &:hover .squareBanner {
+        animation: slide-up 500ms ease-in-out 1 both;
+    }
+}
+
+.squareDisplay {
+    grid-area: 1/1;
+    filter: blur(1px);
+    opacity: .9;
+    border-radius: 5px;
+}
+
+.squareBanner {
+    grid-area: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: white;
+    z-index: 150;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.9);
+    animation: slide-down 500ms 500ms ease-in-out both;
+}
+
+.services-info {
+    animation: fade-out 1000ms ease-in-out both;
+    grid-area: 1/1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
