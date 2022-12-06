@@ -2,7 +2,7 @@ import * as React from "react"
 import { Col } from "react-bootstrap"
 import "../styles/squareDisplay.scss"
 
-const SqDisplay = ({children, img, banner}) => {
+const SqDisplay = ({ children, img, banner }) => {
     return (
         <>
             <Col xs={12} md={4}>

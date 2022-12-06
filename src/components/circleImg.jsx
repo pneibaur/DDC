@@ -1,4 +1,5 @@
 import * as React from 'react'
+import "../styles/RoundDisplay.scss"
 
 
 const RoundDisplay = ({ banner, img, children }) => {

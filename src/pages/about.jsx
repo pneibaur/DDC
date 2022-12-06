@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { Row, Col, Container, Card } from 'react-bootstrap'
 import { StaticImage } from 'gatsby-plugin-image'
+import "../styles/about.scss"
 
 const About = () => {
     return (
@@ -18,10 +19,10 @@ const About = () => {
                     <StaticImage style={{ maxWidth: 300 }} src='../images/Drew/profileDrew.jpeg' alt='Drew Davis Profile' />
                     </Col>
                 </Row>
-                <hr />
+                <hr /> <br />
                 <Row>
                     <Col xs={12} md={6}>
-                        <Card className="bio">
+                        <Card className="bio" >
                             <Card.Body>
                                 <Card.Title>
                                     <span>BIO</span>
@@ -56,7 +57,6 @@ const About = () => {
                         </Card>
                     </Col>
                     <Col xs={12} md={6}>
-                    <br />
                         <Card className='bio'>
                             <Card.Body>
                                 <Card.Title>FROM A CLIENT</Card.Title>
@@ -84,6 +84,7 @@ const About = () => {
                     </Col>
                 </Row>
             </Container>
+            <br />
         </Layout>
     )
 }

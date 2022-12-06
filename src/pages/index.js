@@ -46,7 +46,7 @@ const IndexPage = () => {
   return (
     <Layout>
       {/* WELCOME BANNER AND HERO IMAGE */}
-      <div className="welcome">
+      <div id="welcome" className="welcome">
         <StaticImage className="welcomeImg" src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt="Wasatch National Forest by Brandon Green" />
         <Container className="welcomeBanner">
           <Row>
