@@ -39,10 +39,12 @@
 
 .squareDiv {
     display: grid;
+    // background-color: rgba(90, 90, 90, 0.8);
     background-color: rgba(176, 176, 176, 0.8);
     margin: 1em;
     max-width: 20em;
     border-radius: 5px;
+    padding: 0;
     &:hover .services-info {
         animation: fade-in 1000ms 250ms ease-in-out 1 alternate both;
     } 
@@ -68,6 +70,7 @@
     z-index: 150;
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.9);
     animation: slide-down 500ms 500ms ease-in-out both;
+    // visibility: hidden;
 }
 
 .services-info {
@@ -83,5 +86,6 @@
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
-    padding: 1em 2em;
+    padding: 2em 2em 1em 2em;
+    // visibility: hidden;
 }

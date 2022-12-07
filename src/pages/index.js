@@ -11,7 +11,8 @@ import SqDisplay from "../components/sqDisplay"
 // --------------------------------------------------
 // TO DO:
 // --------------------------------------------------
-
+// - display error: services are off center for some reason. 
+// - display error: services on hover don't switch focus when on mobile. quite frustrating. 
 // 2. make the form functional with an email service. 
 //     - https://formspree.io/
 //     - https://www.gatsbyjs.com/docs/building-a-contact-form/
@@ -19,13 +20,10 @@ import SqDisplay from "../components/sqDisplay"
 // 4. create links to EMDR about, and Neurofeedback about. OR create some pages with quoted texts from each of these services? 
 
 // 5. switch out the testimonial fake text with real ones once he gets them. 
-
-// 7. switch the "home" link to an anchor link
-// 8 resolve the error with anchor links. 
-//     - I THINK it doesn't like Nav.Link combined with AnchorLink...
 // --------------------------------------------------
 // COMPLETE
 // --------------------------------------------------
+// - resolve the error with anchor links. 
 // - the services images need to be hoverable/clickable - info fades in upon hover. works on mobile
 // - The mobile version: the services/specialties are off center. make them centered. 
 // - make the nav sticky so it's visible all the time. 
@@ -76,7 +74,7 @@ const IndexPage = () => {
         <Container>
           <br /><br />
           {/* services banner */}
-          <Row className="justify-content-end">
+          <Row className="justify-content-around">
             <h3 className="display-4"><strong> SERVICES</strong></h3>
             <hr />
           </Row>
