@@ -12,13 +12,13 @@ import SqDisplay from "../components/sqDisplay"
 // TO DO:
 // --------------------------------------------------
 // - display error: services on hover don't switch focus when on mobile. quite frustrating. 
-// 2. make the form functional with an email service. 
+// - make the form functional with an email service. 
 //     - https://formspree.io/
 //     - https://www.gatsbyjs.com/docs/building-a-contact-form/
 
-// 4. create links to EMDR about, and Neurofeedback about. OR create some pages with quoted texts from each of these services? 
+// - create a page for EMDR and Neuro feedback for Drew to write some content
 
-// 5. switch out the testimonial fake text with real ones once he gets them. 
+// - switch out the testimonial fake text with real ones once he gets them. 
 // - slogan might change later, depending on Drew's input. 
 // --------------------------------------------------
 // COMPLETE
@@ -87,15 +87,15 @@ const IndexPage = () => {
               banner="EMDR"
             >
               <div className="services-info">
-                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                EMDR, or eye movement desensitization and reprocessing. Dialectical behavior therapy. This will soon contain a custom explanation from Drew of what EMDR is and how it's used during sessions. For now this is filler text to show that something will soon be here! 
               </div>
             </SqDisplay>
 
             <SqDisplay
               img={<StaticImage src="../images/stockImages/CBT.jpg" alt='Cognitive Behavioral Therapy' className='squareDisplay' />}
-              banner={"CBT"}>
+              banner={"DBT"}>
               <div className="services-info">
-                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Dialectical behavior therapy. This will soon contain a custom explanation from Drew of what DBT is and how it's used during sessions. For now this is filler text to show that something will soon be here! 
               </div>
             </SqDisplay>
 
@@ -103,7 +103,7 @@ const IndexPage = () => {
               img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='squareDisplay' />}
               banner={"NEURO FEEDBACK"}>
               <div className="services-info">
-                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Neurofeedback therapy. Dialectical behavior therapy. This will soon contain a custom explanation from Drew of what neurofeedback is and how it's used during sessions. For now this is filler text to show that something will soon be here! 
               </div>
             </SqDisplay>
 

@@ -49,7 +49,7 @@ const About = () => {
                                     </p><p>
                                         With expertise in treating depression, anxiety,
                                         learning differences, processing differences and attachment
-                                        disorders, as well as, EMDR certified,
+                                        disorders, as well as, EMDR certified trained,
                                         Drew has a deep well of experience to draw from.
                                     </p>
                                 </div>

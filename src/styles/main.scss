@@ -127,12 +127,16 @@ body {
 .contactMeList {
     display: flex;
     flex-direction: column;
-    list-style-type: none;
     align-items: flex-start;
+    list-style-type: none;
 }
 
 .icons {
     font-size: 13px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-start;
+    // align-items: flex-start;
 }
 
 .contactForm {
