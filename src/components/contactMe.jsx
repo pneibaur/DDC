@@ -6,9 +6,9 @@ const ContactMe = () =>{
             <h4>CONTACT ME</h4>
             <hr /><br />
             <ul className='contactMeList'>
-                <li><span className="material-symbols-rounded icons">mail</span> <i>some_email@gmail.com</i></li>
-                <li><span className="material-symbols-rounded icons">call</span> 801-555-5555</li>
-                <li><span className="material-symbols-rounded icons">apartment</span> 123 Fake St. Orem, UT, 84057</li>
+                <li><span className="material-symbols-rounded icons">mail</span> <i> Drew.Davis.Counseling@gmail.com</i></li>
+                <li><span className="material-symbols-rounded icons">call</span> 385-422-1904</li>
+                <li><span className="material-symbols-rounded icons">pin_drop</span> 870 West Center St., Orem, UT 84057</li>
             </ul>
             <hr />
             <p>

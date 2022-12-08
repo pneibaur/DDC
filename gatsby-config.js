@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   siteMetadata: {
     title: `DDC`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://drew-davis-counseling.netlify.app/`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-anchor-links", "gatsby-plugin-image", "gatsby-background-image-es5", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
