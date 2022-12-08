@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Col, Row } from "react-bootstrap"
-import "../styles/SquareDisplay.scss"
+import "../styles/squareDisplay.scss"
 
 const SqDisplay = ({ children, img, banner }) => {
     return (
