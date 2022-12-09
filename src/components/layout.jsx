@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/main.scss"
 import { Container, Row, Navbar, Nav, Col } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
-// import { AnchorLink } from "gatsby-plugin-anchor-links"
 import ContactMe from "./contactMe";
 
 const Layout = ({ children }) => {

@@ -5,7 +5,7 @@ module.exports = {
     title: `DDC`,
     siteUrl: `https://drew-davis-counseling.netlify.app/`
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-anchor-links", "gatsby-plugin-image", "gatsby-background-image-es5", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
@@ -19,6 +19,14 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }, 
+  }, {
+    resolve: 'gatsby-plugin-manifest',
+    options: {
+      "name": 'GatsbyJS',
+      'short_name': 'GatsbyJS',
+      'start_url': "/",
+      'icon': "src/images/mtnLogo.png",
+    }
+}
 ]
 };
