@@ -12,25 +12,29 @@ const Testimonial = () => {
                         <Carousel.Item>
                             <div className="testimonial">
                                 <p><i>
-                                    Right now there aren't any quotes in this carousel.
-                                    But there soon will be!
+                                “Drew was a great therapist, 
+                                he builds a great connection with the patient before getting into 
+                                the nitty gritty of therapy. Whenever I would have session 
+                                I genuinely knew that he was in my corner and wanted the best for me”.
                                 </i></p>
-                                <p> - First Person</p>
+                                <p> - Anonymous Client</p>
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
                             <div className="testimonial">
                                 <p><i>
-                                    Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                "When I brought my son to Drew, 
+                                he was in a deep depression, cutting and suicidal.  
+                                Drew listened to him, got to the heart of his problems, 
+                                and helped pull him out of his isolation and loneliness. 
+                                Drew uses humor and wisdom as he connects with my son. 
+                                My momma heart can never thank him enough. 
+                                He brought my son back to us."
                                 </i></p>
-                                <p> - Second Person</p>
+                                <p> - Anonymous Parent</p>
                             </div>
                         </Carousel.Item>
-                        <Carousel.Item>
+                        {/* <Carousel.Item>
                             <div className="testimonial">
                                 <p><i>
                                     This will also be a testimonial later down the road.
@@ -38,7 +42,7 @@ const Testimonial = () => {
                                 </i></p>
                                 <p> - Third Person</p>
                             </div>
-                        </Carousel.Item>
+                        </Carousel.Item> */}
                     </Carousel>
                 </Col>
             </Row>
