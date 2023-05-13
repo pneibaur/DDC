@@ -5,13 +5,13 @@
         opacity: 0;
     }
     100% {
-        opacity: 1;
+        opacity: .9;
     }
 }
 
 @keyframes fade-out {
     0% {
-        opacity: 1;
+        opacity: .9;
     }
     100% {
         opacity: 0;
@@ -46,11 +46,11 @@
     border-radius: 5px;
     padding: 0;
     &:hover .services-info {
-        animation: fade-in 1000ms 250ms ease-in-out 1 alternate both;
+        animation: fade-in 300ms 50ms ease-in-out 1 alternate both;
     } 
-    &:hover .squareBanner {
-        animation: slide-up 500ms ease-in-out 1 both;
-    }
+    // &:hover .squareBanner {
+    //     animation: slide-up 500ms ease-in-out 1 both;
+    // }
 }
 
 .squareDisplay {
@@ -69,12 +69,12 @@
     color: white;
     z-index: 150;
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.9);
-    animation: slide-down 500ms 500ms ease-in-out both;
+    // animation: slide-down 300ms 300ms ease-in-out both;
     // visibility: hidden;
 }
 
 .services-info {
-    animation: fade-out 1000ms ease-in-out both;
+    animation: fade-out 300ms ease-in-out both;
     grid-area: 1/1;
     border-radius: 5px;
     display: flex;
@@ -82,10 +82,19 @@
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100%; 
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     padding: 2em 2em 1em 2em;
     // visibility: hidden;
+}
+
+.squareLink {
+    text-decoration: none;
+    color: white;
+    &:hover, &:focus {
+        text-decoration: none;
+        color: white;
+    }
 }

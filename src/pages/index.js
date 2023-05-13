@@ -89,7 +89,6 @@ const IndexPage = () => {
               banner="EMDR"
             >
               <div className="services-info">
-                Read more about Eye Movement Desensitization & Reprocessing therapy here. 
               </div>
             </SqDisplay>
 
@@ -97,7 +96,6 @@ const IndexPage = () => {
               img={<StaticImage src="../images/stockImages/CBT.jpg" alt='Cognitive Behavioral Therapy' className='squareDisplay' />}
               banner={"DBT"}>
               <div className="services-info">
-                Read more about Dialectical Behavioral Therapy here. 
               </div>
             </SqDisplay>
 
@@ -105,7 +103,6 @@ const IndexPage = () => {
               img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='squareDisplay' />}
               banner={"NEURO FEEDBACK"}>
               <div className="services-info">
-                Read more about Neuro Feedback therapy here.
               </div>
             </SqDisplay>
 
