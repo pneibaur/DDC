@@ -101,7 +101,7 @@ const IndexPage = () => {
 
             <SqDisplay
               img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='squareDisplay' />}
-              banner={"NEURO FEEDBACK"}>
+              banner={"NEUROFEEDBACK"}>
               <div className="services-info">
               </div>
             </SqDisplay>
