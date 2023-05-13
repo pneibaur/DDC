@@ -18,7 +18,6 @@ import SqDisplay from "../components/sqDisplay"
 //     - https://formspree.io/
 //     - https://www.gatsbyjs.com/docs/building-a-contact-form/
 
-// - create a page for EMDR and Neuro feedback for Drew to write some content
 
 // - switch out the testimonial fake text with real ones once he gets them. 
 // - slogan might change later, depending on Drew's input. 
@@ -32,6 +31,7 @@ import SqDisplay from "../components/sqDisplay"
 // - make the nav sticky so it's visible all the time. 
 // - logo needs to be more classy
 // - specialties must also include: teenagers, anxiety, trauma, self esteem, conflict resolution. 
+// - create a page for EMDR and Neuro feedback for Drew to write some content 
 // - remove FB photos. only keep the Telos one (see if there's a better quality photo)
 // 6. Improve the welcome banner image and title: 
 //     - switch the title with the logo
@@ -57,6 +57,7 @@ const IndexPage = () => {
                 <br />
                 <br />
                 <h2 className="bannerTitle"><em><u>For growth, healing, & building a better self</u></em></h2>
+                <h5>385-422-1904</h5>
               </div>
             </Col>
           </Row>

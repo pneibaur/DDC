@@ -25,8 +25,8 @@ const servicesInfo = () => {
                                 </Card.Title>
                                 <div className="EMDR_info">
                                     <p>
-                                    EMDR (Eye Movement Desensitization and Reprocessing) is a specialized therapeutic intervention 
-                                    that addresses the root cause of many mental health challenges/diagnosis 
+                                    EMDR, or Eye Movement Desensitization and Reprocessing, is a specialized therapeutic intervention 
+                                    that addresses the root cause of many mental health challenges and diagnoses
                                     through stimulation of the brains natural processes utilizing bilateral stimulation. 
                                     </p>
                                     <p><a href="https://www.emdria.org/about-emdr-therapy/">
@@ -42,9 +42,9 @@ const servicesInfo = () => {
                                 <Card.Title>DBT</Card.Title>
                                 <div className="DBT_info">
                                     <p>
-                                        Dialectical behavior therapy(DBT) is an evidence-based modality
+                                        DBT, or Dialectical behavior therapy, is an evidence-based modality
                                         that can be useful in treating mood disorders, anxiety, and suicidal ideation,
-                                        as well as for changing behavioral patterns such as self-harm and substance use.
+                                        as well as behavioral patterns such as self-harm and substance use.
                                     </p>
                                     <p><a href="https://www.webmd.com/mental-health/dialectical-behavioral-therapy">
                                         Read more about it here
@@ -59,13 +59,13 @@ const servicesInfo = () => {
                                 <Card.Title>Neurofeedback</Card.Title>
                                 <div className="Neurofeedback_info">
                                     <p>
-                                        Neurofeedback is direct training of brain function,
+                                        Neurofeedback is direct training of brain function
                                         by which the brain learns to function more efficiently.
-                                        We observe the brain in action from moment to moment.
-                                        We show that information back to the person.
+                                        We observe the brain in action from moment to moment, 
+                                        and show that information back to the client.
                                         And we reward the brain for changing its own activity to more appropriate patterns.
-                                        This is a gradual learning process.
-                                        It applies to any aspect of brain function that we can measure.
+                                        This is a gradual learning process, and
+                                        it applies to any aspect of brain function that we can measure.
                                     </p>
                                     <p><a href="http://www.eeginfo.com/what-is-neurofeedback.jsp">
                                         Read more about it here

@@ -10,7 +10,9 @@ const SqDisplay = ({ children, img, banner, link }) => {
                     <a className="squareLink" href="/servicesInfo">
                         <div className="squareDiv">
                             {img}
-                            <div className="squareBanner"><h4>{banner}</h4></div>
+                            <div className="squareBanner">
+                                <h4>{banner}</h4>
+                            </div>
                             {children}
                         </div>
                     </a>
