@@ -11,6 +11,8 @@ import SqDisplay from "../components/sqDisplay"
 // --------------------------------------------------
 // TO DO:
 // --------------------------------------------------
+// - add phone number in the navbar. 
+// - perhaps include a floating widget to contact or send a message...
 // - display error: services on hover don't switch focus when on mobile. quite frustrating. 
 // - make the form functional with an email service. 
 //     - https://formspree.io/
@@ -87,7 +89,7 @@ const IndexPage = () => {
               banner="EMDR"
             >
               <div className="services-info">
-                EMDR, or eye movement desensitization and reprocessing. Dialectical behavior therapy. This will soon contain a custom explanation from Drew of what EMDR is and how it's used during sessions. For now this is filler text to show that something will soon be here! 
+                Read more about Eye Movement Desensitization & Reprocessing therapy here. 
               </div>
             </SqDisplay>
 
@@ -95,7 +97,7 @@ const IndexPage = () => {
               img={<StaticImage src="../images/stockImages/CBT.jpg" alt='Cognitive Behavioral Therapy' className='squareDisplay' />}
               banner={"DBT"}>
               <div className="services-info">
-                Dialectical behavior therapy. This will soon contain a custom explanation from Drew of what DBT is and how it's used during sessions. For now this is filler text to show that something will soon be here! 
+                Read more about Dialectical Behavioral Therapy here. 
               </div>
             </SqDisplay>
 
@@ -103,7 +105,7 @@ const IndexPage = () => {
               img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='squareDisplay' />}
               banner={"NEURO FEEDBACK"}>
               <div className="services-info">
-                Neurofeedback therapy. Dialectical behavior therapy. This will soon contain a custom explanation from Drew of what neurofeedback is and how it's used during sessions. For now this is filler text to show that something will soon be here! 
+                Read more about Neuro Feedback therapy here.
               </div>
             </SqDisplay>
 
