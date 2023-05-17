@@ -5,7 +5,7 @@ import { Row, Col, Container, Card } from 'react-bootstrap'
 // import { StaticImage } from 'gatsby-plugin-image'
 import "../styles/about.scss"
 
-const servicesInfo = () => {
+const additional = () => {
     return (
         <Layout>
             <Container>
@@ -83,4 +83,4 @@ const servicesInfo = () => {
 
 export const Head = () => <Seo title="About" />
 
-export default servicesInfo
+export default additional

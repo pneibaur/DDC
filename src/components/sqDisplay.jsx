@@ -7,7 +7,7 @@ const SqDisplay = ({ children, img, banner, link }) => {
         <>
             <Col xs={12} md={4}>
                 <Row className="justify-content-center">
-                    <a className="squareLink" href="/servicesInfo">
+                    <a className="squareLink" href="/additional">
                         <div className="squareDiv">
                             {img}
                             <div className="squareBanner">

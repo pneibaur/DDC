@@ -11,9 +11,9 @@ import SqDisplay from "../components/sqDisplay"
 // --------------------------------------------------
 // TO DO:
 // --------------------------------------------------
-// - add phone number in the navbar. 
-// - perhaps include a floating widget to contact or send a message...
-// - display error: services on hover don't switch focus when on mobile. quite frustrating. 
+// - rework pages: home (contains banner & testimonials), specialties & services on their own page, more (additional info page), about page. 
+// - services: add the 7 challenges (like 12 steps but takes out spirituality. )
+// - display error: services are off center for some reason. 
 // - make the form functional with an email service. 
 //     - https://formspree.io/
 //     - https://www.gatsbyjs.com/docs/building-a-contact-form/
@@ -24,7 +24,7 @@ import SqDisplay from "../components/sqDisplay"
 // --------------------------------------------------
 // COMPLETE
 // --------------------------------------------------
-// - display error: services are off center for some reason. 
+// - display error: services on hover don't switch focus when on mobile. quite frustrating. 
 // - resolve the error with anchor links. 
 // - the services images need to be hoverable/clickable - info fades in upon hover. works on mobile
 // - The mobile version: the services/specialties are off center. make them centered. 
