@@ -11,7 +11,6 @@ import { StaticImage } from "gatsby-plugin-image"
 // --------------------------------------------------
 // TO DO:
 // --------------------------------------------------
-// - rework pages: home (contains banner & testimonials), specialties & services on their own page, more (additional info page), about page. 
 // - services: add the 7 challenges (like 12 steps but takes out spirituality. )
 // - display error: services are off center for some reason. 
 // - make the form functional with an email service. 
@@ -24,6 +23,7 @@ import { StaticImage } from "gatsby-plugin-image"
 // --------------------------------------------------
 // COMPLETE
 // --------------------------------------------------
+// - rework pages: home (contains banner & testimonials), specialties & services on their own page, more (additional info page), about page. 
 // - display error: services on hover don't switch focus when on mobile. quite frustrating. 
 // - resolve the error with anchor links. 
 // - the services images need to be hoverable/clickable - info fades in upon hover. works on mobile

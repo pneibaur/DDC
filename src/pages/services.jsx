@@ -29,7 +29,7 @@ const services = () => {
                     <Row className="justify-content-center">
 
                         <SqDisplay
-                            img={<StaticImage src="../images/stockImages/EMDR.jpg" alt='EMDR' className='squareDisplay' />}
+                            img={<StaticImage src="../images/stockImages/EMDR.png" alt='EMDR' className='squareDisplay' />}
                             banner="EMDR"
                         >
                             <div className="services-info">
@@ -44,15 +44,15 @@ const services = () => {
                         </SqDisplay>
 
                         <SqDisplay
-                            img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='squareDisplay' />}
+                            img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neurofeedback' className='squareDisplay' />}
                             banner={"NEUROFEEDBACK"}>
                             <div className="services-info">
                             </div>
                         </SqDisplay>
 
                         <SqDisplay
-                            img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='squareDisplay' />}
-                            banner={"7 CHALLENGES"}>
+                            img={<StaticImage src="../images/stockImages/sevenChallenges.png" alt='Seven Challenges' className='squareDisplay' />}
+                            banner={" "}>
                             <div className="services-info">
                             </div>
                         </SqDisplay>
