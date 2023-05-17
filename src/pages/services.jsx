@@ -1,20 +1,75 @@
 import * as React from 'react'
+import UAParser from "ua-parser-js"
 import Layout from '../components/layout'
 import Seo from '../components/seo'
-import { Row, Col, Container, Card } from 'react-bootstrap'
-import "../styles/about.scss"
+import { Row, Col, Container } from 'react-bootstrap'
+import { StaticImage } from "gatsby-plugin-image"
+import Specialties from "../components/specialties"
+import SqDisplay from "../components/sqDisplay"
+// import "../styles/about.scss"
 
 const services = () => {
+
+    const parser = new UAParser()
+    const result = parser.getResult()
+    const deviceType = (result.device && result.device.type) || "desktop"
+
     return (
-    < Layout >
-        <Container>
-            <Row>
-                <Col>
-                    <h1>Specialties and Services</h1>
-                </Col>
-            </Row>
-        </Container>
-    </Layout >
+        < Layout >
+            <Container>
+                <Row className='aboutTitle'>
+                    <Col>
+                        <h3 className='display-4'><strong>Specialties and Services</strong></h3>
+                    </Col>
+                </Row>
+            </Container>
+            <div id="specialties" className="welcomeSection specialties">
+                <Container>
+                    <Row >
+                        <h3 className="display-4"><strong> SPECIALTIES</strong></h3>
+                        <hr />
+                    </Row>
+                    <Specialties deviceType={deviceType}></Specialties>
+                </Container>
+            </div>
+            {/* SERVICES OFFERED */}
+            <div id="services" className="welcomeSection services">
+                <Container>
+                    <br /><br />
+                    {/* services banner */}
+                    <Row className="justify-content-around">
+                        <h3 className="display-4"><strong> SERVICES</strong></h3>
+                        <hr />
+                    </Row>
+                    {/* display images */}
+                    <Row className="justify-content-center">
+
+                        <SqDisplay
+                            img={<StaticImage src="../images/stockImages/EMDR.jpg" alt='EMDR' className='squareDisplay' />}
+                            banner="EMDR"
+                        >
+                            <div className="services-info">
+                            </div>
+                        </SqDisplay>
+
+                        <SqDisplay
+                            img={<StaticImage src="../images/stockImages/CBT.jpg" alt='Cognitive Behavioral Therapy' className='squareDisplay' />}
+                            banner={"DBT"}>
+                            <div className="services-info">
+                            </div>
+                        </SqDisplay>
+
+                        <SqDisplay
+                            img={<StaticImage src="../images/stockImages/neuroFeedback.jpg" alt='Neuro Feedback' className='squareDisplay' />}
+                            banner={"NEUROFEEDBACK"}>
+                            <div className="services-info">
+                            </div>
+                        </SqDisplay>
+
+                    </Row>
+                </Container>
+            </div>
+        </Layout >
     )
 }
 
