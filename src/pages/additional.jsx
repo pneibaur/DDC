@@ -2,7 +2,6 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { Row, Col, Container, Card } from 'react-bootstrap'
-// import { StaticImage } from 'gatsby-plugin-image'
 import "../styles/about.scss"
 
 const additional = () => {
