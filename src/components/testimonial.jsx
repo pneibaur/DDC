@@ -5,8 +5,8 @@ const Testimonial = () => {
     return (
         <Container>
             <Row className="justify-content-md-center">
-                <h3 className="display-4"><strong> TESTIMONIALS</strong></h3>
-                <br /><hr /><br />
+                {/* <h3 className="display-4"><strong> TESTIMONIALS</strong></h3>
+                <br /><hr /><br /> */}
                 <Col xs="12" md="6">
                     <Carousel variant="dark" className="testimonyCarousel">
                         <Carousel.Item>

@@ -19,11 +19,10 @@ const Layout = ({ children }) => {
                             <Navbar.Toggle aria-controls="ddcNav" />
                             <Navbar.Collapse id="ddcNav" className="justify-content-end">
                                 <Nav>
-                                    <Nav.Item><Nav.Link href="/#">HOME</Nav.Link></Nav.Item>
-                                    <Nav.Item><Nav.Link href="/#contact">CONTACT</Nav.Link></Nav.Item>
-                                    <Nav.Item><Nav.Link href="/about">ABOUT</Nav.Link></Nav.Item>
-                                    {/* <Nav.Item><Nav.Link href="/#specialties">SPECIALTIES</Nav.Link></Nav.Item> */}
+                                    <Nav.Item><Nav.Link href="/">HOME</Nav.Link></Nav.Item>
                                     <Nav.Item><Nav.Link href="/services">SERVICES</Nav.Link></Nav.Item>
+                                    <Nav.Item><Nav.Link href="/about">ABOUT</Nav.Link></Nav.Item>
+                                    <Nav.Item><Nav.Link href="/#contact">CONTACT</Nav.Link></Nav.Item>
                                     <Nav.Item><Nav.Link href="/additional">MORE</Nav.Link></Nav.Item>
                                 </Nav>
                             </Navbar.Collapse>
