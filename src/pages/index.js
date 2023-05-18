@@ -11,18 +11,17 @@ import { StaticImage } from "gatsby-plugin-image"
 // --------------------------------------------------
 // TO DO:
 // --------------------------------------------------
-// - services: add the 7 challenges (like 12 steps but takes out spirituality. )
 // - display error: services are off center for some reason. developing doesn't show the off-center :(. but on my phone it definitely is off center. 
+// - add one more card on the 'additional info' page, describing the seven challenges
 // - make the form functional with an email service. 
 //     - https://formspree.io/
 //     - https://www.gatsbyjs.com/docs/building-a-contact-form/
+// - LAST: purchase the domain name! 
 
-
-// - switch out the testimonial fake text with real ones once he gets them. 
-// - slogan might change later, depending on Drew's input. 
 // --------------------------------------------------
 // COMPLETE
 // --------------------------------------------------
+// - services: add the 7 challenges (like 12 steps but takes out spirituality. )
 // - rework pages: home (contains banner & testimonials), specialties & services on their own page, more (additional info page), about page. 
 // - display error: services on hover don't switch focus when on mobile. quite frustrating. 
 // - resolve the error with anchor links. 
@@ -53,7 +52,7 @@ const IndexPage = () => {
                 <br />
                 <br />
                 <h2 className="bannerTitle"><em><u>For growth, healing, & building a better self</u></em></h2>
-                <h5>385-422-1904</h5>
+                <h5>801-598-7868</h5>
               </div>
             </Col>
           </Row>

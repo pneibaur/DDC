@@ -68,8 +68,7 @@ const Testimonial = () => {
                 <Carousel.Item>
                     <div className="testimonial">
                         <p><i>
-                            This will also be a testimonial later down the road.
-                            For now, this is filler text to show what this testimonial section looks like.
+                        third carousel card. placeholder. 
                         </i></p>
                         <p> - Third Person</p>
                     </div>

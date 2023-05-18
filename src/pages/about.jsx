@@ -35,11 +35,10 @@ const About = () => {
                                         music is one of his passions and it surfaces in his approach to life,
                                         therapy and counseling.
                                     </p><p>
-                                        Years ago as a brand new intern earning a
-                                        Bachelor Degree in Social Work from Weber State University,
-                                        Drew embarked on a therapeutic adventure with Telos that
-                                        continues to this day. Soon after, earning his Masters Degree in
-                                        Social Work from Brigham Young University, he was ready to
+                                        Drew earned his
+                                        Bachelor Degree in Social Work from Weber State University.
+                                        Soon after, he earned his Masters Degree in
+                                        Social Work from Brigham Young University, and he was ready to
                                         perform what he had practiced for so many years.
                                     </p><p>
                                         Using his extensive background with youth and family treatment
@@ -63,14 +62,14 @@ const About = () => {
                                 <div className="testimonial">
                                     <p><i>
                                         “Drew has been a lifeline, a guide, and a support
-                                        throughout my son’s time at Telos, and while always professional,
+                                        throughout my son’s time with him, and while always professional,
                                         has felt like a friend celebrating successes and supporting and
                                         encouraging me through challenges. Drew is skillful at combining
                                         his knowledge and intuition to know exactly how much to encourage
                                         and how much to push my son at any given time and in any given
                                         situation. He is incredibly responsive and always listened to and
                                         considered any concerns, questions, or suggestions that I had, and
-                                        as a parent, whose child is away from home, knowing that you are being
+                                        as a parent, knowing that you are being
                                         fully heard and listened to is invaluable. His guidance has helped my
                                         son to make incredible progress and growth, develop essential skills,
                                         and become more aware of his own strengths and challenges,

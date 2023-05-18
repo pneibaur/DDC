@@ -16,7 +16,7 @@ const additional = () => {
                 </Row>
                 {/* <hr /> <br /> */}
                 <Row>
-                    <Col xs={12} md={4}>
+                    <Col xs={12} md={3}>
                         <Card className="EMDR_Card" >
                             <Card.Body>
                                 <Card.Title>
@@ -24,9 +24,9 @@ const additional = () => {
                                 </Card.Title>
                                 <div className="EMDR_info">
                                     <p>
-                                    EMDR, or Eye Movement Desensitization and Reprocessing, is a specialized therapeutic intervention 
-                                    that addresses the root cause of many mental health challenges and diagnoses
-                                    through stimulation of the brains natural processes utilizing bilateral stimulation. 
+                                        EMDR, or Eye Movement Desensitization and Reprocessing, is a specialized therapeutic intervention
+                                        that addresses the root cause of many mental health challenges and diagnoses
+                                        through stimulation of the brains natural processes utilizing bilateral stimulation.
                                     </p>
                                     <p><a href="https://www.emdria.org/about-emdr-therapy/">
                                         Read more about it here
@@ -35,7 +35,7 @@ const additional = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={12} md={4}>
+                    <Col xs={12} md={3}>
                         <Card className='DBT_Card'>
                             <Card.Body>
                                 <Card.Title>DBT</Card.Title>
@@ -52,7 +52,7 @@ const additional = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={12} md={4}>
+                    <Col xs={12} md={3}>
                         <Card className='Neurofeedback_Card'>
                             <Card.Body>
                                 <Card.Title>Neurofeedback</Card.Title>
@@ -60,13 +60,31 @@ const additional = () => {
                                     <p>
                                         Neurofeedback is direct training of brain function
                                         by which the brain learns to function more efficiently.
-                                        We observe the brain in action from moment to moment, 
+                                        We observe the brain in action from moment to moment,
                                         and show that information back to the client.
                                         And we reward the brain for changing its own activity to more appropriate patterns.
                                         This is a gradual learning process, and
                                         it applies to any aspect of brain function that we can measure.
                                     </p>
                                     <p><a href="http://www.eeginfo.com/what-is-neurofeedback.jsp">
+                                        Read more about it here
+                                    </a></p>
+                                </div>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col xs={12} md={3}>
+                        <Card className='Neurofeedback_Card'>
+                            <Card.Body>
+                                <Card.Title>The Seven Challenges</Card.Title>
+                                <div className="Neurofeedback_info">
+                                    <p>
+                                        The Seven Challenges is a therapeutic program that incorporates work on alcohol and other drug problems.
+                                        It is designed to motivate clients, to evaluate their lives, consider changes they may wish to make,
+                                        and then succeed in implementing the desired changes.
+                                        It supports them in taking power over their own lives.
+                                    </p>
+                                    <p><a href="http://www.sevenchallenges.com/">
                                         Read more about it here
                                     </a></p>
                                 </div>
