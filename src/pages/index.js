@@ -12,7 +12,7 @@ import { StaticImage } from "gatsby-plugin-image"
 // TO DO:
 // --------------------------------------------------
 // - services: add the 7 challenges (like 12 steps but takes out spirituality. )
-// - display error: services are off center for some reason. 
+// - display error: services are off center for some reason. developing doesn't show the off-center :(. but on my phone it definitely is off center. 
 // - make the form functional with an email service. 
 //     - https://formspree.io/
 //     - https://www.gatsbyjs.com/docs/building-a-contact-form/
@@ -39,10 +39,6 @@ import { StaticImage } from "gatsby-plugin-image"
 //     - make the image take up less initial space. skinnier overall. 
 
 const IndexPage = () => {
-
-  // const parser = new UAParser()
-  // const result = parser.getResult()
-  // const deviceType = (result.device && result.device.type) || "desktop"
 
   return (
     <Layout>
