@@ -10,7 +10,7 @@ const ContactForm = () => {
                 </Row>
                 <hr /><br />
                 <Row>
-                    <Form 
+                    <form 
                     method='POST' 
                     name='contactDrew' 
                     data-netlify="true" 
@@ -49,7 +49,7 @@ const ContactForm = () => {
                             </Col>
                         </Row>
                         <br />
-                    </Form>
+                    </form>
                 </Row>
             </Container>
         </div>
