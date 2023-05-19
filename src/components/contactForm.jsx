@@ -10,7 +10,16 @@ const ContactForm = () => {
                 </Row>
                 <hr /><br />
                 <Row>
-                    <Form>
+                    <Form 
+                    method='POST' 
+                    name='contactDrew' 
+                    data-netlify="true" 
+                    netlify-honeypot="bot-field"
+                    data-netlify-recaptcha="true"
+                    >
+                        <input type="hidden" name='bot-field'/>
+                        <input type="hidden" name='form-name' value="contactDrew" />
+                        <input type="hidden" name='subject' value='inquiry from DrewDavisCounseling.com' />
                         <Row>
                             <Col>
                                 <Form.Group className='contactForm'>
@@ -35,6 +44,7 @@ const ContactForm = () => {
                         </Row> <br />
                         <Row className='justify-content-md-start'>
                             <Col xs={2}>
+                                <div data-netlify-recaptcha="true"></div>
                                 <Button variant='info' type='submit'>Submit</Button>
                             </Col>
                         </Row>
