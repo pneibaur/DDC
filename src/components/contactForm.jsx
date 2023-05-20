@@ -38,11 +38,11 @@ const ContactForm = () => {
                 <hr /><br />
                 <Row>
                     <form
-                        method="POST"
                         name="contactDrew"
+                        method="POST"
+                        netlify-honeypot="bot-field"
                         data-netlify="true"
-                        // netlify-honeypot="bot-field"
-                        data-netlify-recaptcha="true"
+                        // data-netlify-recaptcha="true"
                         action="/thank-you"
                     >
                         <input type="hidden" name="bot-field" />
@@ -56,7 +56,7 @@ const ContactForm = () => {
                                 </div>
                             </Col>
                             <Col>
-                                <div className="form-group">
+                                <div className="text-left form-group">
                                     <label htmlFor="email">Email</label>
                                     <input type="email" name="email" id="email" className="form-control contactForm" placeholder="someone@example.com" />
                                 </div>
@@ -73,9 +73,6 @@ const ContactForm = () => {
                         <Row className="justify-content-md-start">
                             <Col xs={2}>
                                 <button className="btn btn-primary" type="submit">Submit</button>
-                            </Col>
-                            <Col xs={2}>
-                                <div data-netlify-recaptcha="true"></div>
                             </Col>
                         </Row>
                         <br />
