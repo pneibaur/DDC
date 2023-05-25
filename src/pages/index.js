@@ -52,7 +52,7 @@ const IndexPage = () => {
                 <br />
                 <br />
                 <h2 className="bannerTitle"><em><u>For growth, healing, & building a better self</u></em></h2>
-                <h5>801-598-7868</h5>
+                <h5>801-810-5214</h5>
               </div>
             </Col>
           </Row>

@@ -4,8 +4,9 @@ import { Card, Col, Row, Container } from "react-bootstrap"
 const Testimonial = () => {
     return (
         <Container>
+            <br />
             <Row className="justify-content-md-center">
-                <Col xs="12" md="3">
+                <Col xs="12" md="4">
                     <Card className="">
                         <Card.Body>
                             <Card.Title>FROM A CLIENT</Card.Title>
@@ -20,7 +21,26 @@ const Testimonial = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col xs="12" md="3">
+                <Col xs="12" md="4">
+                    <Card className="">
+                        <Card.Body>
+                            <Card.Title>FROM A PARENT</Card.Title>
+                            <div className="">
+                                <p><i>
+                                    "Our family had experienced the death of my children’s father and coming out of Covid,
+                                    and we all needed help. It was particularly difficult to find a great therapist to work with my son,
+                                    who was at a tricky time in his life as a teenager going through a lot of transitions
+                                    holding on to overwhelming grief. Drew provided such a safe, open place for my son
+                                    to be able to be himself and focus on a lot of different areas of his life,
+                                    not just his grief. He was calm, knowledgeable, and professional, while also giving
+                                    the kind of individualized help my son needed that gave him tools to move forward,
+                                    hope, and encouragement. We are so grateful for him. "
+                                </i></p>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs="12" md="4">
                     <Card className="">
                         <Card.Body>
                             <Card.Title>FROM A PARENT</Card.Title>
