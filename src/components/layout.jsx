@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
                                     <Nav.Item>
                                         {/* <!-- Professional verification provided by Psychology Today --> */}
                                         <Nav.Link target="_blank" href="https://www.psychologytoday.com/profile/1004625" className="sx-verified-seal">
-                                            <Navbar.Brand><StaticImage width={25} src="../images/PTlogo.png" /></Navbar.Brand>
+                                            {/* <Navbar.Brand><StaticImage width={25} src="../images/PTlogo.png" /></Navbar.Brand> */}
                                         </Nav.Link>
                                         <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="13" data-id="1004625" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
                                     </Nav.Item>
