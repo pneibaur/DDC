@@ -16,7 +16,7 @@ const ContactMe = () => {
                             <span className="material-symbols-rounded icons">mail</span> <i> Drew.Davis.Counseling@gmail.com</i>
                         </li>
                         <li>
-                            <span className="material-symbols-rounded icons">call</span> 801-598-7868
+                            <span className="material-symbols-rounded icons">call</span> 801-810-5214
                         </li>
                         <li>
                             <span className="material-symbols-rounded icons">pin_drop</span> 870 West Center St., Orem, UT 84057

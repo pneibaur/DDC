@@ -1,5 +1,5 @@
 import * as React from "react"
-// import UAParser from "ua-parser-js"
+import UAParser from "ua-parser-js"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Row, Col, Container } from "react-bootstrap"
@@ -39,6 +39,10 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = () => {
 
+  const parser = new UAParser()
+  const result = parser.getResult()
+  const deviceType = (result.device && result.device.type) || "desktop"
+
   return (
     <Layout>
       {/* WELCOME BANNER AND HERO IMAGE */}
@@ -61,7 +65,7 @@ const IndexPage = () => {
       {/* TESTIMONIALS */}
       <div id="testimonials" className="welcomeSection testimonials">
         <Container>
-          <Testimonial></Testimonial>
+          <Testimonial deviceType={deviceType}></Testimonial>
         </Container>
       </div>
     </Layout>
