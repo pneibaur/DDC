@@ -7,19 +7,23 @@ const Testimonial = ({ deviceType }) => {
     const responsive = {
         largeDesktop: {
             breakpoint: { max: 4000, min: 3001 },
-            items: 4,
+            items: 2,
+            partialVisibilityGutter: 90,
         },
         desktop: {
             breakpoint: { max: 3000, min: 1025 },
-            items: 3,
+            items: 2,
+            partialVisibilityGutter: 90,
         },
         tablet: {
             breakpoint: { max: 1024, min: 465 },
             items: 2,
+            partialVisibilityGutter: 90,
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
             items: 1,
+            partialVisibilityGutter: 1,
         },
     }
 
@@ -34,10 +38,14 @@ const Testimonial = ({ deviceType }) => {
                     draggable={true}
                     infinite={true}
                     autoPlay={true}
-                    autoPlaySpeed={4000}
-                    partialVisbile={false}
-                    itemClass="multi-carousel-item"
-                    removeArrowOnDeviceType={["largeDesktop", "desktop", "tablet", "mobile"]}
+                    autoPlaySpeed={5000}
+                    itemClass="px-4"
+                    // partialVisbile={true}
+                    // centerMode={true}
+                    arrows={false}
+                    focusOnSelect={true}
+                    containerClass="carousel-testimonial"
+                    pauseOnHover
                 >
                     <div>
                         <Card className="">
@@ -188,6 +196,7 @@ const Testimonial = ({ deviceType }) => {
                     </div>
                 </Carousel>
             </Row>
+            {/* multi-carousel-item  */}
         </Container>
     )
 }

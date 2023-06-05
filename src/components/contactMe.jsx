@@ -24,7 +24,7 @@ const ContactMe = () => {
                     </ul>
                 <Row>
                     <hr />
-                    <p>&copy; DDC | All rights reserved</p>
+                    <p>&copy; Drew Davis Counseling | All rights reserved</p>
                 </Row>
             </Container>
         </div>

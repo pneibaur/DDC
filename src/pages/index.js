@@ -62,7 +62,7 @@ const IndexPage = () => {
         </Container>
       </div>
       {/* TESTIMONIALS */}
-      <div id="testimonials" className="welcomeSection testimonials">
+      <div id="" className="">
         <Container>
           <Testimonial deviceType={deviceType}></Testimonial>
         </Container>
