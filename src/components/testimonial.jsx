@@ -146,6 +146,46 @@ const Testimonial = ({ deviceType }) => {
                             </Card.Body>
                         </Card>
                     </div>
+                    <div>
+                        <Card className="">
+                            <Card.Body>
+                                <Card.Title>FROM A THERAPIST</Card.Title>
+                                <div className="">
+                                    <p><i>
+                                        “Drews approach to therapy is like no other I have experienced, 
+                                        in the best way possible. His diverse knowledge in neuropsychology, 
+                                        CBT, DBT, process addiction, processing disorders, and much more enables Drew 
+                                        to create a truly customized treatment plan. Somehow throughout my time working with Drew, 
+                                        I truly became the person I wanted to become. I will forever be grateful for Drew. 
+                                        If you have been lost for a while, you are at the right place.”
+                                    </i></p>
+                                </div>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div>
+                        <Card className="">
+                            <Card.Body>
+                                <Card.Title>FROM A PARENT</Card.Title>
+                                <div className="">
+                                    <p><i>
+                                        “Drew Davis - kind, loyal, insightful, intuitive, committed, compassionate, 
+                                        considerate, professional, predictable (in the best ways), consistent, time tested and proven, 
+                                        Fox-hole worthy, a gentleman, a therapist who goes above and beyond. 
+                                        Drew has helped our son and our family in immeasurable ways.  
+                                        In the darkest days Drew has provided the spark of light needed to see 
+                                        that a shift of positive change was actually taking place. In the seas of despair, 
+                                        Drew provided us droplets of hope. When there was no reason within us, 
+                                        Drew found the questions to pry us open to consider alternate thoughts. 
+                                        When our hearts were broken, Drew taught us to have faith that heart-mending 
+                                        could be one of the sweetest parts of our human experience. 
+                                        Drew is a man that deserves my praise in ways I find beyond my ability to describe 
+                                        through words alone. Drew is love in action.”
+                                    </i></p>
+                                </div>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </Carousel>
             </Row>
         </Container>
