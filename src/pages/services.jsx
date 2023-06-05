@@ -75,6 +75,6 @@ const services = () => {
     )
 }
 
-export const Head = () => <Seo title="Services" />
+export const Head = () => <Seo title="Services: Drew Davis Counseling" />
 
 export default services

@@ -12,15 +12,14 @@ import { StaticImage } from "gatsby-plugin-image"
 // TO DO:
 // --------------------------------------------------
 // - display error: services are off center for some reason. developing doesn't show the off-center :(. but on my phone it definitely is off center. 
-// - add one more card on the 'additional info' page, describing the seven challenges
-// - make the form functional with an email service. 
-//     - https://formspree.io/
-//     - https://www.gatsbyjs.com/docs/building-a-contact-form/
-// - LAST: purchase the domain name! 
+// - make the form functional with netlify email service. Drew needs to turn this on.
+// - testimonials on home page are 'off center'. add buffe or margin between cards. 
 
 // --------------------------------------------------
 // COMPLETE
 // --------------------------------------------------
+// - LAST: purchase the domain name! 
+// - add one more card on the 'additional info' page, describing the seven challenges
 // - services: add the 7 challenges (like 12 steps but takes out spirituality. )
 // - rework pages: home (contains banner & testimonials), specialties & services on their own page, more (additional info page), about page. 
 // - display error: services on hover don't switch focus when on mobile. quite frustrating. 
@@ -32,7 +31,7 @@ import { StaticImage } from "gatsby-plugin-image"
 // - specialties must also include: teenagers, anxiety, trauma, self esteem, conflict resolution. 
 // - create a page for EMDR and Neuro feedback for Drew to write some content 
 // - remove FB photos. only keep the Telos one (see if there's a better quality photo)
-// 6. Improve the welcome banner image and title: 
+// - Improve the welcome banner image and title: 
 //     - switch the title with the logo
 //     - add a placeholder slogan until Drew gets back to me. 
 //     - make the image take up less initial space. skinnier overall. 
@@ -71,6 +70,6 @@ const IndexPage = () => {
     </Layout>
   )
 }
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Drew Davis Counseling" />
 
 export default IndexPage

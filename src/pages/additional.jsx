@@ -98,6 +98,6 @@ const additional = () => {
     )
 }
 
-export const Head = () => <Seo title="About" />
+export const Head = () => <Seo title="Additional Information" />
 
 export default additional

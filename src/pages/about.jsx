@@ -88,6 +88,6 @@ const About = () => {
     )
 }
 
-export const Head = () => <Seo title="About" />
+export const Head = () => <Seo title="About Drew Davis" />
 
 export default About
