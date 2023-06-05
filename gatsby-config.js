@@ -2,8 +2,9 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: `DDC`,
-    siteUrl: `https://drew-davis-counseling.netlify.app/`
+    title: `Drew Davis Counseling`,
+    siteUrl: `https://drewdaviscounseling.com/`, 
+    description: `Utah County Therapist for teenagers and adults. EMDR and neurofeedback.`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',

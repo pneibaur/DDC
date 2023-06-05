@@ -34,9 +34,10 @@ const Testimonial = ({ deviceType }) => {
                     draggable={true}
                     infinite={true}
                     autoPlay={true}
-                    autoPlaySpeed={3000}
+                    autoPlaySpeed={4000}
                     partialVisbile={false}
                     itemClass="multi-carousel-item"
+                    removeArrowOnDeviceType={["largeDesktop", "desktop", "tablet", "mobile"]}
                 >
                     <div>
                         <Card className="">
