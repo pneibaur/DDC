@@ -7,12 +7,12 @@ const Testimonial = ({ deviceType }) => {
     const responsive = {
         largeDesktop: {
             breakpoint: { max: 4000, min: 3001 },
-            items: 2,
+            items: 3,
             partialVisibilityGutter: 90,
         },
         desktop: {
             breakpoint: { max: 3000, min: 1025 },
-            items: 2,
+            items: 3,
             partialVisibilityGutter: 90,
         },
         tablet: {
@@ -38,11 +38,11 @@ const Testimonial = ({ deviceType }) => {
                     draggable={true}
                     infinite={true}
                     autoPlay={true}
-                    autoPlaySpeed={5000}
+                    autoPlaySpeed={3000}
                     itemClass="px-4"
                     // partialVisbile={true}
                     // centerMode={true}
-                    arrows={false}
+                    arrows={true}
                     focusOnSelect={true}
                     containerClass="carousel-testimonial"
                     pauseOnHover
