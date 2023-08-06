@@ -35,6 +35,7 @@ const Seo = ({ Title, Description, Email, Phone }) => {
                 <meta name="phone" content={seo.phone} />
                 <meta name="email" content={seo.email} />
                 <meta name="url" content={seo.url} />
+                <meta name="google-site-verification" content="py5zAQLzLR-QDTb7HUnhs0tAGilHP1Q3HUzrwLDA01g" />
                 {/* {seo.url && <meta property="og:url" content={seo.url} />}
                 {seo.title && <meta property="og:title" content={seo.title} />}
                 {seo.description && <meta property="og:description" content={seo.description} />}
