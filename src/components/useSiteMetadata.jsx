@@ -6,7 +6,7 @@ const useSiteMetadata = () => {
         site {
           siteMetadata {
             title
-            siteUrl
+            url
             description
           }
         }
@@ -15,4 +15,4 @@ const useSiteMetadata = () => {
     return data.site.siteMetadata
 }
 
-export default useSiteMetadata
+// export default useSiteMetadata

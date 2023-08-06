@@ -3,8 +3,10 @@ const path = require('path')
 module.exports = {
   siteMetadata: {
     title: `Drew Davis Counseling`,
-    siteUrl: `https://drewdaviscounseling.com/`, 
-    description: `Utah County Therapist for teenagers and adults. EMDR and neurofeedback.`
+    url: `https://drewdaviscounseling.com`, 
+    description: `Utah County Therapist in Orem, UT. Therapy for teenagers and adults. Providing EMDR, neurofeedback, .`,
+    phone: `801-810-5214`,
+    email: `Drew.Davis.Counseling@gmail.com`,
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',

@@ -1,3 +1,4 @@
+// import { Helmet } from "react-helmet"
 import * as React from "react"
 import UAParser from "ua-parser-js"
 import Layout from "../components/layout"
@@ -12,13 +13,13 @@ import { StaticImage } from "gatsby-plugin-image"
 // TO DO:
 // --------------------------------------------------
 // - display error: services are off center for some reason. developing doesn't show the off-center :(. but on my phone it definitely is off center. 
-// - make the form functional with netlify email service. Drew needs to turn this on.
-// - testimonials on home page are 'off center'. add buffe or margin between cards. 
+// - google searchability: SEO. make it searchable! 
 
 // --------------------------------------------------
 // COMPLETE
 // --------------------------------------------------
 // - LAST: purchase the domain name! 
+// - make the form functional with netlify email service. Drew needs to turn this on.
 // - add one more card on the 'additional info' page, describing the seven challenges
 // - services: add the 7 challenges (like 12 steps but takes out spirituality. )
 // - rework pages: home (contains banner & testimonials), specialties & services on their own page, more (additional info page), about page. 
@@ -43,33 +44,35 @@ const IndexPage = () => {
   const deviceType = (result.device && result.device.type) || "desktop"
 
   return (
-    <Layout>
-      {/* WELCOME BANNER AND HERO IMAGE */}
-      <div id="welcome" className="welcome">
-        <StaticImage className="welcomeImg" src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt="Wasatch National Forest by Brandon Green" />
-        <Container className="welcomeBanner">
-          <Row>
-            <Col xs={12}>
-              <div className="bannerTitleDiv">
-                <StaticImage className="bannerTitle" src="../images/ddcMountainLogo.png" alt="Drew Davis Counseling" />
-                <br />
-                <br />
-                <h2 className="bannerTitle"><em><u>For growth, healing, & building a better self</u></em></h2>
-                <h5>801-810-5214</h5>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      {/* TESTIMONIALS */}
-      <div id="" className="">
-        <Container>
-          <Testimonial deviceType={deviceType}></Testimonial>
-        </Container>
-      </div>
-    </Layout>
+    <>
+      <Layout>
+        {/* WELCOME BANNER AND HERO IMAGE */}
+        <Seo />
+        <div id="welcome" className="welcome">
+          <StaticImage className="welcomeImg" src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt="Wasatch National Forest by Brandon Green" />
+          <Container className="welcomeBanner">
+            <Row>
+              <Col xs={12}>
+                <div className="bannerTitleDiv">
+                  <StaticImage className="bannerTitle" src="../images/ddcMountainLogo.png" alt="Drew Davis Counseling" />
+                  <br />
+                  <br />
+                  <h2 className="bannerTitle"><em><u>For growth, healing, & building a better self</u></em></h2>
+                  <h5>801-810-5214</h5>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        {/* TESTIMONIALS */}
+        <div id="" className="">
+          <Container>
+            <Testimonial deviceType={deviceType}></Testimonial>
+          </Container>
+        </div>
+      </Layout>
+    </>
   )
 }
-export const Head = () => <Seo title="Drew Davis Counseling" />
 
 export default IndexPage

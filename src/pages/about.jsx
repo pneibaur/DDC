@@ -8,6 +8,7 @@ import "../styles/about.scss"
 const About = () => {
     return (
         <Layout>
+            <Seo Title={"About"} />
             <Container>
                 <Row className='aboutTitle'>
                     <Col>
@@ -87,7 +88,5 @@ const About = () => {
         </Layout>
     )
 }
-
-export const Head = () => <Seo title="About Drew Davis" />
 
 export default About
