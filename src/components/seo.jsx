@@ -33,12 +33,12 @@ const Seo = ({ Title, Description, Email, Phone, Address }) => {
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
                 <title> {seo.title} </title>
                 <meta name='description' content={seo.description} />
-                <meta name="image" content={seo.image} />
                 <meta name="phone" content={seo.phone} />
                 <meta name="email" content={seo.email} />
                 <meta name="url" content={seo.url} />
                 <meta name="address" content={seo.address} />
-                <meta name="google-site-verification" content="py5zAQLzLR-QDTb7HUnhs0tAGilHP1Q3HUzrwLDA01g" />
+                {/* <meta name="google-site-verification" content="py5zAQLzLR-QDTb7HUnhs0tAGilHP1Q3HUzrwLDA01g" /> */}
+                <meta name="google-site-verification" content="EMpkTRyY5vx5DV2Khs59lWp14QLM0EA6W72SZmOTt7I" />
             </Helmet>
         </>
     )
