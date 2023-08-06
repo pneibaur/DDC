@@ -7,6 +7,7 @@ import "../styles/about.scss"
 const additional = () => {
     return (
         <Layout>
+            <Seo Title={"Resources"} />
             <Container>
                 <br />
                 <Row className='aboutTitle'>
@@ -97,7 +98,5 @@ const additional = () => {
         </Layout>
     )
 }
-
-export const Head = () => <Seo title="Additional Information" />
 
 export default additional

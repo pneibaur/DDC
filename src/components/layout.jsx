@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
                                     <Nav.Item><Nav.Link href="/services">SERVICES</Nav.Link></Nav.Item>
                                     <Nav.Item><Nav.Link href="/about">ABOUT</Nav.Link></Nav.Item>
                                     <Nav.Item><Nav.Link href="/#contact">CONTACT</Nav.Link></Nav.Item>
-                                    <Nav.Item><Nav.Link href="/additional">MORE</Nav.Link></Nav.Item>
+                                    <Nav.Item><Nav.Link href="/resources">RESOURCES</Nav.Link></Nav.Item>
                                     <Nav.Item>
                                         {/* <!-- Professional verification provided by Psychology Today --> */}
                                         <Nav.Link target="_blank" href="https://www.psychologytoday.com/profile/1004625" className="sx-verified-seal">

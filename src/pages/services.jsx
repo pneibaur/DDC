@@ -16,6 +16,7 @@ const services = () => {
 
     return (
         < Layout >
+        <Seo Title={"Services"} />
             {/* SERVICES OFFERED */}
             <div id="services" className="welcomeSection services">
                 <Container>
@@ -74,7 +75,5 @@ const services = () => {
         </Layout >
     )
 }
-
-export const Head = () => <Seo title="Services: Drew Davis Counseling" />
 
 export default services
