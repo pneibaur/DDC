@@ -4,17 +4,18 @@ import { useLocation } from "@reach/router"
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
-const Seo = ({ Title, Description, Email, Phone }) => {
+const Seo = ({ Title, Description, Email, Phone, Address }) => {
 
     const { pathname } = useLocation()
     const { site } = useStaticQuery(query)
     
     const {
-        description,
-        email,
-        phone,
         title,
         url,
+        description,
+        phone,
+        address,
+        email,
     } = site.siteMetadata
     
     const seo = {
@@ -22,6 +23,7 @@ const Seo = ({ Title, Description, Email, Phone }) => {
         description: Description || description,
         url: `${url}${pathname}`,
         email: Email || email,
+        address: Address || address,
         phone: Phone || phone,
     }
 
@@ -35,12 +37,8 @@ const Seo = ({ Title, Description, Email, Phone }) => {
                 <meta name="phone" content={seo.phone} />
                 <meta name="email" content={seo.email} />
                 <meta name="url" content={seo.url} />
+                <meta name="address" content={seo.address} />
                 <meta name="google-site-verification" content="py5zAQLzLR-QDTb7HUnhs0tAGilHP1Q3HUzrwLDA01g" />
-                {/* {seo.url && <meta property="og:url" content={seo.url} />}
-                {seo.title && <meta property="og:title" content={seo.title} />}
-                {seo.description && <meta property="og:description" content={seo.description} />}
-                {seo.phone && <meta property="og:phone" content={seo.phone} />}
-                {seo.email && <meta property="og:email" content={seo.email} />} */}
             </Helmet>
         </>
     )
@@ -70,11 +68,12 @@ const query = graphql`
 query {
     site {
       siteMetadata {
-        description
-        email
-        phone
         title
         url
+        description
+        phone
+        address
+        email
       }
     }
   }

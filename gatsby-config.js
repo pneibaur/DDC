@@ -4,8 +4,9 @@ module.exports = {
   siteMetadata: {
     title: `Drew Davis Counseling`,
     url: `https://drewdaviscounseling.com`, 
-    description: `Utah County Therapist in Orem, UT. Therapy for teenagers and adults. Providing EMDR, neurofeedback, .`,
+    description: `LCSW Therapist in Orem, Utah. Therapy & counseling for teenagers & adults: EMDR, Neurofeedback, DBT.`,
     phone: `801-810-5214`,
+    address: `870 West Center Street, Orem, Utah 84057`,
     email: `Drew.Davis.Counseling@gmail.com`,
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
