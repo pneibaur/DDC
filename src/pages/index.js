@@ -11,13 +11,14 @@ import { StaticImage } from "gatsby-plugin-image"
 // --------------------------------------------------
 // TO DO:
 // --------------------------------------------------
-// - display error: services are off center for some reason. developing doesn't show the off-center :(. but on my phone it definitely is off center. 
-// - google searchability: SEO. make it searchable! 
+// - change the banner title away from the logo image, and switch to the logo with an H1 tag. for searchability. 
 
 // --------------------------------------------------
 // COMPLETE
 // --------------------------------------------------
 // - LAST: purchase the domain name! 
+// - google searchability: SEO. make it searchable! 
+// - display error: services are off center for some reason. developing doesn't show the off-center :(. but on my phone it definitely is off center. 
 // - make the form functional with netlify email service. Drew needs to turn this on.
 // - add one more card on the 'additional info' page, describing the seven challenges
 // - services: add the 7 challenges (like 12 steps but takes out spirituality. )
