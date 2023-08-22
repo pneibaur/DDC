@@ -3,8 +3,15 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { Row, Col, Container, Card } from 'react-bootstrap'
 import "../styles/about.scss"
+import VideoCarousel from '../components/videoCarousel'
+import UAParser from 'ua-parser-js'
 
 const additional = () => {
+
+    const parser = new UAParser()
+    const result = parser.getResult()
+    const deviceType = (result.device && result.device.type) || "desktop"
+
     return (
         <Layout>
             <Seo Title={"Resources"} />
@@ -12,8 +19,11 @@ const additional = () => {
                 <br />
                 <Row className='aboutTitle'>
                     <Col>
-                        <h3 className='display-4'><strong>Additional Information</strong></h3>
+                        <h3 className='display-4'><strong>Additional Resources</strong></h3>
                     </Col>
+                </Row>
+                <Row>
+                    <VideoCarousel deviceType={deviceType}></VideoCarousel>
                 </Row>
                 {/* <hr /> <br /> */}
                 <Row>
