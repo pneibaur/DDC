@@ -22,7 +22,7 @@ const additional = () => {
                         <h3 className='display-4'><strong>Additional Resources</strong></h3>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='videoLibraryRow'>
                     <VideoCarousel deviceType={deviceType}></VideoCarousel>
                 </Row>
                 {/* <hr /> <br /> */}

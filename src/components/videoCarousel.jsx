@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Row } from 'react-bootstrap'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css';
 import videoLibrary from './videoLibrary';
@@ -35,13 +34,13 @@ const VideoCarousel = ({ deviceType, children }) => {
 
     return (
         <>
-            <Row className='videoRow'>
+            <div className='videoRow'>
                 <br />
                 <Carousel
                     responsive={responsive}
                     deviceType={deviceType}
                     arrows={true}
-                    centerMode={true}
+                    centerMode={false}
                     infinite={true}
                     pauseOnHover={true}
                     draggable={true}
@@ -62,12 +61,13 @@ const VideoCarousel = ({ deviceType, children }) => {
                                     webkitallowfullscreen="true"
                                     mozillaallowfullscreen="true"
                                     allowFullScreen
+                                    className='resourceIframe'
                                 />
                             </div>
                         ))
                     }
                 </Carousel>
-            </Row>
+            </div>
         </>
     )
 }
