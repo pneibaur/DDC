@@ -35,10 +35,6 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     min-height: 50vh;
     border: 1px solid rgba(0, 0, 0, 0.9);
-
-    h1 {
-        font-size: 4em;
-    }
 }
 
 .welcomeImg {
@@ -149,6 +145,12 @@ body {
 
 .contactForm {
     text-align: start;
+}
+
+.siteTitle{
+    font-size: inherit;
+    font-weight: inherit;
+    display: inline;
 }
 
 // --------------------------------------------------------
