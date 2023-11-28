@@ -2,8 +2,8 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: `Drew Davis Counseling`,
-    url: `https://drewdaviscounseling.com`, 
+    title: `Thriving Mental Health`,
+    url: `https://www.thrivingmh.com`, 
     description: `LCSW Therapist in Orem, Utah. Therapy & counseling for teenagers & adults: EMDR, Neurofeedback, DBT.`,
     phone: `801-810-5214`,
     address: `870 West Center Street, Orem, Utah 84057`,

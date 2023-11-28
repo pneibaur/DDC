@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500;700&family=Montagu+Slab:wght@200;400;700&family=Nokora:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500;700&family=Montagu+Slab:wght@200;400;700&family=Ephesis&family=Nokora:wght@300;400;700&display=swap');
 
 * {
     margin: 0;
@@ -55,7 +55,7 @@ body {
 }
 
 .bannerMsg {
-    font-size: 30px;
+    font-size: 1vw;
     font-weight: 500;
 }
 
@@ -68,9 +68,54 @@ body {
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
 }
-.bannerTitle {
+.bannerLogo, .bannerText {
     text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.6);
     font-weight: 100;
+}
+
+.nameAndLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-bottom: .5em;
+}
+
+.logoDiv {
+    display: flex;
+    width: 20%;
+}
+
+.companyNameDiv {
+    display: table;
+    align-self: center;
+    width: 80%;
+}
+
+.companyName {
+    align-self: center;
+    font-family: 'Ephesis';
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 7vmin;
+}
+@media (max-width: 767px) {
+    .companyName {font-size: 9vmin;}
+    .bannerMsg {font-size: 3vmin;}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .companyName {font-size: 8vmin;}
+    .bannerMsg {font-size: 3.5vmin;}
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .companyName {font-size: 11vmin;}
+    .bannerMsg {font-size: 4vmin;}
+}
+@media (min-width: 1201px) {
+    .companyName {font-size: 13vmin;}
+    .bannerMsg {font-size: 5vmin;}
 }
 
 // --------------------------------------------------------

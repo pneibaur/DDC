@@ -14,7 +14,10 @@ const Layout = ({ children }) => {
                     <header>
                         <Navbar className="navbar-custom" expand='sm'>
                             <Navbar.Brand href="/">
-                                <StaticImage width={200} src="../images/ddcMountainLogo.png" alt="Logo" />
+                                <StaticImage width={50} src="../images/mtnLogo.png" alt="Logo" />
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <Nav.Item className="text-secondary">Thriving Mental Health</Nav.Item>
                                 <Nav.Item className="text-secondary">801-810-5214</Nav.Item>
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="ddcNav" />

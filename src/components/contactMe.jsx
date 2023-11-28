@@ -26,7 +26,7 @@ const ContactMe = () => {
                     <hr />
                     <div>
                         <span>
-                            &copy; <h1 className='siteTitle'>Drew Davis Counseling</h1> | All rights reserved
+                            &copy; <span className='siteTitle'>Thriving Mental Health</span> | All rights reserved
                         </span>
                     </div>
                 </Row>

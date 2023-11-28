@@ -11,6 +11,7 @@ import { StaticImage } from "gatsby-plugin-image"
 // --------------------------------------------------
 // TO DO:
 // --------------------------------------------------
+// - search for dynamic CSS font sizes. for the H1 tag. 
 // - change the banner title away from the logo image, and switch to the logo with an H1 tag. for searchability. 
 
 // --------------------------------------------------
@@ -52,14 +53,23 @@ const IndexPage = () => {
           <StaticImage className="welcomeImg" src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt="Wasatch National Forest by Brandon Green" />
           <Container className="welcomeBanner">
             <Row>
-              <Col xs={12}>
-                <div className="bannerTitleDiv">
-                  <StaticImage className="bannerTitle" src="../images/ddcMountainLogo.png" alt="Drew Davis Counseling" />
-                  <br />
-                  <br />
-                  <h2 className="bannerTitle"><em><u>For growth, healing, & building a better self</u></em></h2>
-                </div>
-              </Col>
+              <div className="bannerTitleDiv">
+                <Col xs={12}>
+                  <div className="nameAndLogo">
+                    <div className="logoDiv">
+                      <StaticImage className="bannerLogo" src="../images/mtnLogo.png" alt="Thriving Mental Health Logo" />
+                    </div>
+                    <br />
+                    <div className="title companyNameDiv">
+                      <h1 className="title companyName">Thriving Mental Health</h1>
+                    </div>
+                    <br />
+                  </div>
+                </Col>
+                <Col>
+                  <h2 className="bannerText bannerMsg"><em><u>For growth, healing, & building a better self</u></em></h2>
+                </Col>
+              </div>
             </Row>
           </Container>
         </div>
