@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
                     <header>
                         <Navbar className="navbar-custom" expand='sm'>
                             <Navbar.Brand href="/">
-                                <StaticImage width={50} src="../images/mtnLogo.png" alt="Logo" />
+                                <StaticImage width={50} src="../images/ThrivingMHLogo.png" alt="Logo" />
                             </Navbar.Brand>
                             <Navbar.Brand>
                                 <Nav.Item className="text-secondary">Thriving Mental Health</Nav.Item>

@@ -29,7 +29,7 @@ module.exports = {
       "name": 'GatsbyJS',
       'short_name': 'GatsbyJS',
       'start_url': "/",
-      'icon': "src/images/mtnLogo.png",
+      'icon': "src/images/ThrivingMHLogo.png",
     }
 }
 ]

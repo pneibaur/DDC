@@ -57,7 +57,7 @@ const IndexPage = () => {
                 <Col xs={12}>
                   <div className="nameAndLogo">
                     <div className="logoDiv">
-                      <StaticImage className="bannerLogo" src="../images/mtnLogo.png" alt="Thriving Mental Health Logo" />
+                      <StaticImage className="bannerLogo" src="../images/ThrivingMHLogo.png" alt="Logo for Thriving Mental Health" />
                     </div>
                     <br />
                     <div className="title companyNameDiv">

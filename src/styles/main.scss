@@ -1,6 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500;700&family=Montagu+Slab:wght@200;400;700&family=Ephesis&family=Nokora:wght@300;400;700&display=swap');
 
+$logoGreen: rgb(76,134,37);
+$logoLightGreen: rgb(243, 255, 236);
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -14,7 +17,7 @@ body {
 }
 
 .layout {
-    background-color: #dff1f7;
+    background-color: $logoLightGreen;
 }
 
 .welcomeSection {
@@ -131,7 +134,7 @@ body {
 // OTHER FRONT PAGE SECTIONS
 
 .services {
-    background-color: rgba(75, 120, 169, 0.1);
+    background-color: $logoLightGreen;
     margin: 0 auto;
 }
 
@@ -216,7 +219,7 @@ body {
 }
 
 .ddc-nav {
-    background-color: #dff1f7;
+    background-color: $logoLightGreen;
     position: sticky;
     top: 0;
     z-index: 10000;
