@@ -50,24 +50,22 @@ const IndexPage = () => {
         {/* WELCOME BANNER AND HERO IMAGE */}
         <Seo />
         <div id="welcome" className="welcome">
-          <StaticImage className="welcomeImg" src="../images/stockImages/brandonGreenWasatchForest.jpeg" alt="Wasatch National Forest by Brandon Green" />
+          <StaticImage className="welcomeImg" src="../images/stockImages/aloneTreeByJohannSiemens2.jpeg" alt="Tree in a Field by Johann Siemens" />
           <Container className="welcomeBanner">
             <Row>
               <div className="bannerTitleDiv">
-                <Col xs={12}>
-                  <div className="nameAndLogo">
+                <Col xs={3}>
+                  <div className="bannerLogoDiv">
                     <div className="logoDiv">
                       <StaticImage className="bannerLogo" src="../images/ThrivingMHLogo.png" alt="Logo for Thriving Mental Health" />
                     </div>
-                    <br />
-                    <div className="title companyNameDiv">
-                      <h1 className="title companyName">Thriving Mental Health</h1>
-                    </div>
-                    <br />
                   </div>
                 </Col>
-                <Col>
-                  <h2 className="bannerText bannerMsg"><em><u>For growth, healing, & building a better self</u></em></h2>
+                <Col xs={9}>
+                  <div className="title companyNameDiv">
+                    <h1 className="title companyName">Thriving Mental Health</h1>
+                    <h2 className="bannerText bannerMsg"><em><u>For growth, healing, & building a better self</u></em></h2>
+                  </div>
                 </Col>
               </div>
             </Row>
