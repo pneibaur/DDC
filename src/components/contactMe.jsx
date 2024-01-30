@@ -13,7 +13,7 @@ const ContactMe = () => {
                 </Row>
                 <ul className='contactMeList'>
                     <li>
-                        <span className="material-symbols-rounded icons">mail</span> <i> Drew.Davis.Counseling@gmail.com</i>
+                        <span className="material-symbols-rounded icons">mail</span> <i> thrivingmh@gmail.com</i>
                     </li>
                     <li>
                         <span className="material-symbols-rounded icons">call</span> 801-810-5214
